@@ -53,13 +53,264 @@
     .row.mb-5
       .col-md-12.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido
-          p.text-small(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+          p.text-small(numero="1" titulo="Análisis de documentación").m-3
+            ul(style="list-style-type: square")
+              li Es donde se obtiene la información sobre los requerimientos funcionales y requerimientos no funcionales partiendo de documentos ya elaborados.
+              br
+              li Se utiliza cuando los expertos en el desarrollo no están disponibles para ser interrogados o ya no forman parte del proceso o la empresa.
+              br
+              li Evitar riesgos al no tener documentación.En el momento de necesitarla, se tendrá que hacer en el momento menos oportuno y sin recordar nada, perdiendo información valiosa y tiempo, buscando las soluciones.
           
-          p.text-small(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+          p.text-small(numero="2" titulo="Observación").m-3
+            ul(style="list-style-type: square")
+              li Siempre será necesario analizar el entorno de trabajo de los usuarios, clientes e interesados en el proyecto (stakeholders).
+              br
+              li Esta técnica es muy útil al documentar la situación actual del proceso de negocio.
+              br
+              li Puede ser activa o pasiva.
+              br
+              li En la observación pasiva el observador no hace preguntas, solo se limita a tomar notas y no interfiere en el desempeño de las operaciones.
+              br
+              li En la observación activa, el observador habla con los usuarios.
           
-          p.text-small(numero="3" titulo="Praesent luctus") Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+          p.text-small(numero="3" titulo="Entrevistas").m-3
+            ul(style="list-style-type: square")
+              li Se realiza con los directos interesados o usuarios clave.
+              br
+              li Direccionan a los usuarios hacia aspectos específicos a tener en cuenta.
+              br
+              li Son demasiado útiles para obtener y documentar datos o información sobre los requerimientos y sus niveles de importancia.
+              br
+              li Deben ser entrevistas formales e informales para recolectar mucha más información. 
+              br
+              li Se deben enfocar los objetivos de la entrevista.
+              br
+              li Las preguntas cerradas son útiles y ayudan a confirmar y validar información. 
+              br
+              li Las preguntas abiertas son útiles y ayudan a identificar información faltante.
+              br
+              li El éxito de las entrevistas depende del grado de conocimiento del entrevistador y el entrevistado. El entrevistado debe tener muy buena disposición, suministrar toda la información, de igual forma debe existir un muy buen registro de la documentación de la discusión y una excelente relación entre las partes involucradas.
           
-          p.text-small(numero="4" titulo="Praesent luctus") quam cursus in. Donec feugiat volutpat metus at pulvinar.
+          p.text-small(numero="4" titulo="Encuestas o cuestionarios").m-3
+            ul(style="list-style-type: square")
+              li Técnica útil para recolectar requerimientos eficientes y necesarios de muchas personas.
+              br
+              li Deben tener identificado el propósito y la audiencia, definir fechas precisas, preguntas claras y precisas.
+              br
+              li Enfocarse en los objetivos de negocio necesarios a identificar.
+              br
+              li Apoyarse en entrevistas de seguimiento e individualizar usuarios.
+              br
+              li En su contenido debe haber preguntas abiertas y cerradas.
+
+          p.text-small(numero="5" titulo="Mesas de trabajo (workshops)").m-3
+            ul(style="list-style-type: square")
+              li Técnica efectiva para analizar información rápida de varias personas.
+              br
+              li Es necesario agendarse en tareas predefinidas y preseleccionar participantes, ajustando buenas prácticas y mejoras continuas de los procesos.
+              br
+              li Es conveniente utilizar un facilitador y un transcriptor.
+              br
+              li Se pueden analizar los resultados en diagramas o flujogramas, en reuniones.
+
+          p.text-small(numero="6" titulo="Lluvia de ideas.").m-3
+            ul(style="list-style-type: square")
+              li Sesión de trabajo estructurada encaminada a obtener una cantidad de ideas posibles.
+              br
+              li Es ideal limitarlas en tiempo y utilizar ayudas visuales con un facilitador.
+              br
+              li Definir reglas de participación, criterios para evaluar ideas, asignarles un puntaje, no permitir críticas y con límite de tiempo de discusión.
+              br
+              li Identificar la mayor cantidad de ideas y evaluarlas, considerar todas las ideas y respetar las de los demás.
+
+          p.text-small(numero="7" titulo="Historias de usuario.").m-3
+            ul(style="list-style-type: square")
+              li Son simples conversaciones con los usuarios pero muy importantes para levantar requerimientos.
+              br
+              li Es recomendable que sean escritas por los mismos usuarios o interesados, enfatizando en lo que el sistema debe realizar.
+              br
+              li Al momento de redactar una historia deben tenerse en cuenta los roles o cargos de los usuarios, las funcionalidades y los resultados esperados de la aplicación.
+              br
+              li Las historias de usuario son una de las técnicas más importantes al momento de levantar requerimientos.
+
+    .cajon-b.colorcajon3.col-10
+      h3 Los requerimientos:
+      ul(style="list-style-type: square").lup
+        li Son las condiciones o capacidades que debe conservar un sistema, producto, servicio o componente para satisfacer las necesidades mediante un contrato, cumplir con estándares, especificaciones y demás documentos de manera formal.
+        br
+        li También se definen como las capacidades necesarias para que un cliente o usuario solucione un problema u objetivo ya preestablecido.
+        br
+        li Así mismo, se pueden relacionar los requisitos como las restricciones impuestas a un usuario por algunos interesados, definiendo objetivos precisos de un proyecto.
+    br
+    p Las restricciones siempre serán necesarias para lograr manipular o editar el manejo de la aplicación de manera controlada, efectiva y funcional, para que se lleven a cabo los procesos de manera eficaz en la operación de las tareas.
+
+    .cajon.cajontitle2.col-2
+      h3.text Restricciones
+    br
+    br
+    p Hacen énfasis, por ejemplo, en los permisos de accesos a usuarios en el sistema.
+    br
+    p Todos los usuarios del sistema lo podrán operar, pero no todos tienen los mismos derechos en la aplicación.
+    br
+    p Así como existen operadores de la aplicación, habrá usuarios con permisos de administradores que podrán manipular más a fondo la aplicación. 
+
+    Separador
+    br
+    .titulo-segundo.color-acento-contenido
+    h2 1.1 Características de requerimientos
+    br
+    p Los requerimientos deben cumplir con cierto tipo de características y criterios:
+    br
+    img.imgpos3(src='@/assets/curso/imgtem05.jpg')
+    .row.mb-5
+      .col-md-12.mb-5.mb-md-0
+        LineaTiempoD.color-acento-contenido
+          p.text-small(numero="1" titulo="Verificable").m-3
+            ul(style="list-style-type: square")
+              p El requisito debe tener una implementación precisa y comprobada, la prueba de consulta debe ser correcto o incorrecto.
+              
+          p.text-small(numero="2" titulo="Único").m-3
+            ul(style="list-style-type: square")
+              p Debe ser interpretado de manera exclusiva, de una sola manera.
+
+          p.text-small(numero="3" titulo="Claro").m-3
+            ul(style="list-style-type: square")
+              p Los requerimientos deben ser precisos, sin más terminologías, de forma clara y simple.
+
+          p.text-small(numero="4" titulo="Viable").m-3
+            ul(style="list-style-type: square")
+              p El objetivo de los requerimientos es que sea realizable según restricciones de tiempo, dinero, recursos y demás elementos a tener en cuenta.
+
+          p.text-small(numero="5" titulo="Necesario").m-3
+            ul(style="list-style-type: square")
+              p Si al omitirlo no se tiene ningún efecto, entonces no será necesario.
+
+          p.text-small(numero="6" titulo="Independiente").m-3
+            ul(style="list-style-type: square")
+              p Para comprender los requerimientos no deben ser necesarios el conocimiento de otros.
+
+          p.text-small(numero="7" titulo="Consistente").m-3
+            ul(style="list-style-type: square")
+              p No deben existir conflicto entre ellos. 
+
+          p.text-small(numero="8" titulo="Redundancia").m-3
+            ul(style="list-style-type: square")
+              p Deben ser formulados una sola vez, y no sobreponerse o relacionarse de la misma forma con otro requerimiento.
+
+          p.text-small(numero="9" titulo="Completo").m-3
+            ul(style="list-style-type: square")
+              p También debe ser específico, se deben tener en cuenta todas las condiciones que se pueden llegar a presentar.
+
+    .cajon.cajontitle3.col-3
+      h3.text Estructura de los requerimientos
+    br
+    p Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los stakeholders como se muestra en la siguiente imagen:
+    br
+    img.col-10.imgpos4(src='@/assets/curso/imgtem06.jpg')
+    br
+    p Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
+    br
+
+    .cajon.cajontitle4.col-3
+      h3.text ¿Qué es la trazabilidad?
+    img.imgpos5(src='@/assets/curso/imgtem07.jpg')
+    br
+    p Es la documentación de la vida de cada uno de los requerimientos, permitiendo el historial de su formulación original hasta el documento final
+    b Se debe documentar cada paso de manera estricta para conseguir la trazabilidad.
+    br
+    br
+    p Los requerimientos y necesidades surgen de diversas fuentes, como el cliente, el manager, los usuarios, etc., todos y cada uno comprenden de diferentes formas los requerimientos, y es en este momento, donde los requerimientos se deben precisar para poder planear y llevarlo a la ejecución.<br><br>Utilizando la trazabilidad se sigue el historial de cada característica implementada hasta las personas o grupos que solicitaron la generación de los requerimientos, de esta manera, se permite un análisis más rápido en cada fase del proyecto.
+    br 
+    br
+    .cajon.cajontitle4.col-3
+      h3.text Tipos de requerimientos
+    br
+    p Los requerimientos se clasifican en:
+    br
+
+    .titulo_principal
+      h3 Requerimientos funcionales
+    br
+    img.imgpos7(src='@/assets/curso/imgtem08.jpg')
+    .cajon-b.colorcajon4.col-10
+      p.align-center.margentext Son las declaraciones de los servicios que prestará el sistema, es la forma como reacciona a determinadas funciones. Del mismo modo, podrían ser la manera de interactuar con otros sistemas, el tipo de respuestas automáticas y los procesos predefinidos. En otros casos también los requisitos funcionales establecen de manera precisa lo que el sistema no debe hacer, es decir también puede ser una declaración negativa.     
+    br
+    p De igual forma, los requerimientos funcionales también son las características que tendrá el sistema o aplicación, son las funciones que actúan directamente con los usuarios, por ejemplo, las pantallas que permiten utilizar dicha aplicación, lo que se puede visualizar, como Facebook, Instagram, etc., sus menús, diseños, botones, colores y demás funcionalidades que hacen muy amigable la interacción con el usuario.
+    br
+    p Por otra parte, los mayores problemas se encuentran cuando existen especificaciones de requisitos inexactas o incoherentes. Si un analista de los requerimientos del sistema
+      span.text-bold toma suposiciones como conocimientos universales, podría conllevar un riesgo para el sistema
+      span , es mejor siempre ser preciso y definirlo. Estos problemas se pueden encontrar en las funciones comunes relacionadas con las experiencias de usuario.
+    br
+    .cajon-b.colorcajon5.col-12
+      p.textizq.col-10.m-4 El analista es el responsable de la documentación, por lo tanto, el mismo deberá tratar de asegurarse que no hay lagunas de comprensión, por eso es importante tener en cuenta las historias de usuario, asegurándose de que todo el equipo está sincronizado respecto a los requisitos, objetivos e implementación.
+      img(src='@/assets/curso/imgtem09.png').col-1.m-3
+    br
+    p Algunos ejemplos de requerimientos funcionales con características que permiten utilizar la aplicación de manera cómoda y visual, ya sea en el diseño, menú, botones, entre otros, son:
+    br
+    br
+    SlyderE(indicadores="derecha")
+      .row
+        .col-md-4.mb-2.mb-md-0
+          h3 Interfaz de captura
+          br
+          p Incluye:
+          br
+          ul(style="list-style-type: square").lup2
+            li Las funciones que actúan directamente con el usuario.
+            br
+            li Las pantallas y opciones que permiten utilizar la aplicación.
+        
+        .col-md-8
+          figure
+            img(src='@/assets/curso/imgtem10.jpg')
+          
+      .row
+        .col-md-4.mb-2.mb-md-0
+          h3 Funcionalidad específica
+          br
+          p Por ejemplo, pedir un taxi:
+          br
+          ul(style="list-style-type: square").lup2
+            li Seleccionar el punto de partida y punto de llegada.
+            br
+            li Seleccionar el tipo de vehículo, forma de pago.
+            br
+            li Confirmar el número de teléfono.
+            br
+            li Completar el viaje.
+          p En este tipo de aplicaciones, se puede también calificar a los conductores y compartir los viajes, cada uno de estos sería un requerimiento funcional.
+
+        .col-md-8
+          figure
+            img(src='@/assets/curso/imgtem11.jpg')
+    br
+    br
+    .titulo_principal
+      h3 Requerimientos no funcionales
+    br
+    img.imgpos8(src='@/assets/curso/imgtem12.jpg') 
+    br
+    p.col-7 Son los requerimientos que no interfieren con las funciones específicas que entrega el sistema, asegurando la fiabilidad, tiempos de respuesta y capacidad de almacenamiento. En otras palabras, no habla de lo que hace el sistema, sino de cómo lo hace, define restricciones de entrada y salida, representando datos utilizados en las interfaces del sistema. <br><br>Puede ser con lenguaje de programación Java, con alta velocidad de procesamiento de datos, para un óptimo funcionamiento de la aplicación, disponibilidad, entre otros. Son los requisitos que debe tener la aplicación para que funcione adecuadamente, se encargan de que la aplicación cumpla con lo que tiene que hacer.
+    .cajon-b.colorcajon6.col-7 
+      p.align-center.margentext Los 
+        span.text-bold requerimientos no funcionales 
+        span son los requisitos que debe tener la aplicación para que funcione adecuadamente; estos se encargan de que la aplicación cumpla con lo que se quiere hacer, por otro lado, los 
+        span.text-bold requerimientos funcionales 
+        span son todo lo que el usuario ve y manipula.
+    br
+    p A continuación, se muestran ejemplos de requisitos no funcionales dentro de una aplicación para pedir un taxi:
+    br
+
+    .tarjeta.color-acento-botones.p-4.col-4
+      .row.justify-content-center.mb-3
+        .col-8
+          img(src='@/assets/curso/icon1.png' alt='AvatarTop')
+      h2.text-center Operación 7x24
+      p La aplicación debe operar las 24 horas del día durante todo el año.<br/><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
+
+      
+    
+
 
 </template>
 
