@@ -301,15 +301,38 @@
     p A continuación, se muestran ejemplos de requisitos no funcionales dentro de una aplicación para pedir un taxi:
     br
 
-    .tarjeta.color-acento-botones.p-4.col-4
-      .row.justify-content-center.mb-3
-        .col-8
-          img(src='@/assets/curso/icon1.png' alt='AvatarTop')
+    .tarjeta.color-primario.fond.col-5
+      .row.justify-content-center
+        img.icon1(src='@/assets/curso/icon1.png' alt='AvatarTop')
       h2.text-center Operación 7x24
-      p La aplicación debe operar las 24 horas del día durante todo el año.<br/><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
+      p.margentext3 La aplicación debe operar las 24 horas del día durante todo el año.<br/><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
 
-      
+    .tarjeta.color-primario.fond2.col-5
+      .row.justify-content-center
+        img.icon1(src='@/assets/curso/icon2.png' alt='AvatarTop')
+      h2.text-center Registro de usuario
+      p.margentext3 Para su uso se requieren datos de registro.<br/><br/>Esta opción de seguridad es un requisito que no se puede ver, pero es necesario para que la aplicación funcione; es un requisito no funcional. 
+    br
+    br
+    .cajon-b.colorcajon7.col-10
+      p 
+        span.text-bold Los requerimientos no funcionales no se pueden ver ni tocar
+        span , porque están “detrás” de la aplicación, para que funcione de manera rápida, segura y en cualquier momento. 
+
+    .titulo-segundo.color-acento-contenido
+    h2 1.2 Documentación de requerimientos
+
+    img.imgpos9(src='@/assets/curso/imgtem13.jpg')
+    br
+    span.text-bold El documento de requerimientos es el lugar donde se describen las características y requisitos de un software, programa, conjunto de programas o productos.
+    span  Son expresados en lenguaje natural, sin términos técnicos ni consideraciones.
+    br
+    br  
+    p La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar el software y los clientes o usuarios finales que utilizarán el mismo.
+    br
     
+
+
 
 
 </template>
