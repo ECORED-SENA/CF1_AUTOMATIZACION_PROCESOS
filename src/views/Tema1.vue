@@ -330,10 +330,73 @@
     br  
     p La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar el software y los clientes o usuarios finales que utilizarán el mismo.
     br
+    br
+    br
+    br
+    br
+    br
     
+    .tarjeta.colorblue.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/icon1.png")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Llamado a la acción
+              p.text-small Se comparte una plantilla para la descripción de los requerimientos. Esta plantilla sigue los requerimientos establecidos en el estándar IEEE 830, (Instituto de Ingenieros Eléctricos y Electrónicos), es la sociedad técnica profesional más grande y prestigiosa del mundo. Del mismo modo, se menciona que la especificación de requisitos debe contener la descripción de las funcionalidades de la aplicación, relacionamiento con los sistemas externos y requerimientos no funcionales, de rendimiento, disponibilidad, tiempos de respuesta y mantenibilidad. 
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF001_Anexo2_Plantilla_requerimientos_de_software.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
+
+    p Es importante mencionar que, de acuerdo con las necesidades de cada proyecto, podría ser necesario incluir elementos o información complementaria a este documento. A continuación, se comparte un esquema descriptivo de una plantilla de documento de requerimientos de software:
+    br
+    br
+    br
+    br
+
+    ImagenInfografica.color-secundario.mb-5.col-8.alinearcuadro
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/template/imgmap.png', alt='Texto que describa la imagen')
+
+      .tarjeta.colorfondo1.p-3(x="84%" y="5%" numero="+")
+        .h5.mb-2 Propósito
+        p Nombre o título del software que está especificado en el documento, incluyendo su número de versión o release. También se describen cuáles componentes o partes del alcance del producto están incluidas en el documento, estableciendo si cubre la totalidad del software, solo una parte del sistema, subsistema o subgrupo de procesos.
+
+      .tarjeta.colorfondo1.p-3(x="98%" y="15%" numero="+")
+        .h5.mb-2 Alcance
+        p Descripción corta del alcance del software que se está especificando, incluyendo: propósito u objetivo general, beneficios que brinda al área de negocio y organización, relación de los objetivos del software con los objetivos corporativos y estrategias de negocio. Se puede hacer referencia a otros documentos.
+
+      .tarjeta.colorfondo1.p-3(x="84%" y="27%" numero="+")
+        .h5.mb-2 Referencias
+        p Aquí se puede incluir otros documentos impresos, documentos o direcciones electrónicas que complementen la documentación de requerimientos de software.
+
+      .tarjeta.colorfondo1.p-3(x="98%" y="38%" numero="+")
+        .h5.mb-2 Funcionalidades
+        p Lista de las funcionalidades del software que se está especificando en el documento de requerimientos. Cada funcionalidad puede estar compuesta por uno o varios requerimientos funcionales de software. Solo se incluye una lista numerada de las principales funcionalidades.<br/><br/>Clases y características de usuarios<br/><br/>Se clasifican los usuarios que utilizaran el producto. La clasificación puede ser en función a la frecuencia de uso, grupo de funcionalidades utilizadas, privilegios de seguridad, nivel de experiencia y otros parámetros.
+
+      .tarjeta.colorfondo1.p-3(x="84%" y="50%" numero="+")
+        .h5.mb-2 Entrono operativo
+        p Se describe el entorno operativo en el que se desenvolverá el sistema, software, módulo o grupo de funcionalidades, mencionando aspectos como la plataforma de hardware, versiones de sistema operativo y otros sistemas o componentes con los que debe coexistir.
+
+      .tarjeta.colorfondo1.p-3(x="98%" y="62%" numero="+")
+        .h5.mb-2 Requerimientos no funcionales
+        p Los requerimientos no funcionales son los que especifican criterios para evaluar la operación de un servicio de tecnología de información, en contraste con los requerimientos funcionales que especifican los comportamientos específicos. 
+
+      .tarjeta.colorfondo1.p-3(x="84%" y="73%" numero="+")
+        .h5.mb-2 Requerimientos interfaces externas
+        p Describe las características y atributos de las interfaces con el usuario (GUI), interfaces con el hardware, interfaces con otros sistemas de las interfaces de comunicaciones.
 
 
+      .tarjeta.colorfondo1.p-3(x="98%" y="84%" numero="+")
+        .h5.mb-2 Reglas de negocio
+        p Listado de reglas y principios que aplican a todo el conjunto de requerimientos de software contenidos en el documento. Un ejemplo es cuáles individuos o roles pueden desempeñar cierta función bajo ciertas circunstancias. 
 
+      .tarjeta.colorfondo1.p-3(x="84%" y="95%" numero="+")
+        .h5.mb-2 Requerimientos funcionales
+        p En esta sección de la plantilla, se ilustra cómo organizar los requerimientos funcionales de software por funcionalidad de producto o sistema. Aquí se listan las funcionalidades para cada una y a su vez se listan los requerimientos funcionales. Los requerimientos funcionales también se pueden documentar en una matriz de trazabilidad de requerimientos.
 
 </template>
 
