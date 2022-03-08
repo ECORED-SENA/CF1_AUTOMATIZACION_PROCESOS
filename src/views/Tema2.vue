@@ -12,7 +12,7 @@
     p.col-8 La notación textual de los requerimientos es necesaria para la relación de la comunicación efectiva entre clientes, usuarios e interesados, deben lograr interpretar lo que queda plasmado en figuras.<br/><br/>La notación gráfica que se utiliza en la especificación de los requerimientos por excelencia es UML (Lenguaje de Modelado Unificado), específicamente en los diagramas de casos de uso, estados y actividades, que describen en detalles los usos del sistema.<br/><br/>Como se muestra a continuación, para los diagramas UML existen diferentes versiones aprobadas por la ISO, cuentan con diferentes tipos, clasificándolos según su estructura o comportamiento:
     br
     br
-    img.col-10.centerimg(src='@/assets/curso/imgtem202.jpg')
+    img.col-8.centerimg(src='@/assets/curso/imgtem202.jpg')
     br
     br
     h4.text Entre los diagramas de estructura se encuentran:
@@ -146,6 +146,7 @@
     br
     h4.text Entre los diagramas de comportamiento se tienen:
     br
+    br
     .tarjeta.fond3.col-2
       .row.justify-content-center
         img.icon2(src='@/assets/curso/guia.png' alt='AvatarTop')
@@ -174,6 +175,24 @@
     br
     .cajon.cajontitle5.col-3
       h3.text Técnicas de modelado de procesos
+    br
+    p Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un software fiable para realizar el modelado de los procesos.
+      ul(style="list-style-type: square").col-6.textizq2
+        li Recopilar información a través de entrevistas individuales.
+        br
+        li Sesiones facilitadoras para recopilar datos en reuniones con talento humano de diferentes áreas o dependiendo del objetivo.
+        br
+        li Enfoque de arriba hacia abajo analizando el proceso del todo en las partes.
+        br
+        li Enfoque de abajo hacia arriba analizando el proceso del nivel de flujo de trabajo, es más lento, pero se encuentran mayores detalles.
+      img.icon3(src='@/assets/curso/imgtem205.jpg').col-2
+    br
+    .cajon.cajontitle6.col-3
+      h3.text Diagrama de flujo
+    br
+    img.icon4(src='@/assets/curso/imgtem206.jpg').col-3
+    p.col-7.textizq3 Es un diagrama que describe un proceso, sistema o algoritmo informático, es usado ampliamente en muchos campos para documentar, estudiar, mejorar, planificar y comunicar procesos que suelen ser muy complejos en algunos diagramas claros y fáciles en su comprensión.<br/><br/>En los diagramas se utilizan rectángulos, óvalos, diamantes y otras figuras más para definir el tipo de paso, junto a flechas conectoras estableciendo flujos y secuencias. Varían desde diagramas simples o hechos a mano, hasta los más complejos creados en computadora, describiendo múltiples pasos y rutas. 
+
 
 </template>
 
