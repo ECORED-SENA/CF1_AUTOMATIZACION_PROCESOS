@@ -109,9 +109,71 @@
           figure
             img(src='@/assets/template/Grupo4.jpg', alt='Texto que describa la imagen')
 
+    .titulo-segundo.color-acento-contenido
+      h2 2.1 Características de requerimientos
+    img.col-3.imgpos10(src='@/assets/curso/imgtem203.jpg') 
+    p.col-7 Hacen referencia al conjunto de pasos para llevar a cabo en una organización, junto con sus miembros, con el fin de lograr las metas propuestas y los objetivos.<br/><br/>Se ha determinado, a través del tiempo e investigaciones, que lo único constante es el cambio en las organizaciones.<br/><br/> Del mismo modo, el avance tecnológico que se globaliza en los últimos tiempos obliga a las empresas a adoptar nuevas herramientas tecnológicas de gestión y capacitación de los empleados en el uso eficiente de ellas, como única alternativa para sobrevivir y mantenerse en el mercado. A continuación, se presenta algunos tipos de procesos dentro de las organizaciones:
+    br
+    br
+    br
+    br
+    .tarjeta.colorblue.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/componentes/icon1.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Tipos de procesos dentro de las organizaciones
+                  p.text-small A continuación se invita al aprendiz a consultar el siguiente recurso infográfico donde se presentan algunos tipos de procesos dentro de las organizaciones. 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF001_Anexo2_Plantilla_requerimientos_de_software.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+    br
+    .titulo-segundo.color-acento-contenido
+      h2 2.2 Modelado de procesos
+    img.col-3.imgpos10(src='@/assets/curso/imgtem204.jpg') 
+    ul(style="list-style-type: square").col-7 
+      li El gran objetivo del modelado es optimizar los procesos.
+      br
+      li Partir los procesos en pedazos para permitir estudiarlo, está conectado con las pruebas a realizar percibiendo las posibilidades de cada proceso.
+      br
+      li Permite conocer a fondo las pruebas y resultados, creando un buen comienzo para la optimización de procesos, identificando los obstáculos y puntos nulos. 
+    br
+    br
+    br
+    br
+    h4.text Entre los diagramas de comportamiento se tienen:
+    br
+    .tarjeta.fond3.col-2
+      .row.justify-content-center
+        img.icon2(src='@/assets/curso/guia.png' alt='AvatarTop')
+      h2.text Guías:
+      p.margentext4 se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
 
 
+    .tarjeta.fond3.col-2
+      .row.justify-content-center
+        img.icon2(src='@/assets/curso/car.png' alt='AvatarTop')
+      h2.text Resultados:
+      p.margentext4 surge con la transformación de los insumos.
 
+    .tarjeta.fond3.col-2
+      .row.justify-content-center
+        img.icon2(src='@/assets/curso/manofactura.png' alt='AvatarTop')
+      h2.text Facilitadores: 
+      p.margentext4 se utilizan en el proceso de transformación de insumos a resultados.
+      
+    .tarjeta.fond3.col-2
+      .row.justify-content-center
+        img.icon2(src='@/assets/curso/insumo.png' alt='AvatarTop')
+      h2.text Insumos:
+      p.margentext4 todo lo que pasa a través de un proceso es un insumo. 
+    br
+    br
+    .cajon.cajontitle5.col-3
+      h3.text Técnicas de modelado de procesos
 
 </template>
 
