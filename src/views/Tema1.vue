@@ -8,15 +8,15 @@
         span.text-white 1
       h1 Requerimientos
 
-    img.imgpos(src='@/assets/curso/imgtem01.jpg') 
-    .cajon-b.colorcajon.col-5 
+    img.imgpos(src='@/assets/curso/imgtem01.jpg')(data-aos="fade-left")
+    .cajon-b.colorcajon.col-5(data-aos="zoom-out")  
       p.align-center.margentext Los requerimientos son las peticiones o solicitudes que se consideran necesarias o importantes para satisfacer una o varias necesidades, ante un problema o mejora de un proceso.    
     br
-    p.col-6 Es decir, son las condiciones o capacidades que deben tener los sistemas, productos o servicios para lograr satisfacer un contrato, estándar o algunas otras especificaciones o documentos que se hayan establecido formalmente.<br><br>Los requerimientos no indican el diseño que debe tener el producto, indican las funciones y contenidos que se espera que tenga y la manera cómo los usuarios interactúan con él; los requerimientos varían con el tiempo, puesto que, con la puesta en marcha del producto, se podrán generar nuevos requerimientos (diferentes o complementarios a los iniciales).
+    p.col-6(data-aos="zoom-out") Es decir, son las condiciones o capacidades que deben tener los sistemas, productos o servicios para lograr satisfacer un contrato, estándar o algunas otras especificaciones o documentos que se hayan establecido formalmente.<br><br>Los requerimientos no indican el diseño que debe tener el producto, indican las funciones y contenidos que se espera que tenga y la manera cómo los usuarios interactúan con él; los requerimientos varían con el tiempo, puesto que, con la puesta en marcha del producto, se podrán generar nuevos requerimientos (diferentes o complementarios a los iniciales).
     br
 
-    img.imgpos2(src='@/assets/curso/imgtem02.jpg')
-    .cajon-b.colorcajon2.col-5  
+    img.imgpos2(src='@/assets/curso/imgtem02.jpg')(data-aos="fade-right")
+    .cajon-b.colorcajon2.col-5(data-aos="zoom-out")  
       p.align-center.margentext El propósito principal de los requerimientos es asegurar la satisfacción de las expectativas de los clientes y sus interesados (stakeholders), internos y externos, relacionando de manera eficiente, los vínculos que esperan los clientes y usuarios, y lo que el grupo del proyecto tiende a desarrollar    
       p.posctext Ahora bien, los requerimientos son adaptados a todo tipo de proyectos, así, se trata de garantizar el óptimo funcionamiento de los procesos, sirviendo de referencia para el aseguramiento y control de los cambios que se pueden presentar en el proyecto (trazabilidad). 
     <br>
@@ -34,23 +34,23 @@
     <br>
     <br>
     <br>
-    .cajon.cajontitle2.col-2
+    .cajon.cajontitle2.col-2(data-aos="zoom-in-right")
       h3.text Control de cambios
     <br>
     <br>
-      img.imgpos3(src='@/assets/curso/imgtem03.jpg')
-      p.align-center.col-7 Durante la ejecución del proyecto se encuentran muchas situaciones, en las que se identifican nuevas necesidades, las cuales ni siquiera se habían pensado, pero se hace necesario anexarlas a la aplicación.<br><br>Estos cambios imprevistos, hacen que se replanteen nuevos requerimientos e incluso requerimientos ya documentados.<br><br>Se debe definir desde un principio la forma en que se gestionaran dichos cambios, debido a que pueden generar retrocesos en el desarrollo y en la planeación.<br><br>Se deben incluir cláusulas contractuales claras para que las partes a intervenir lo tengan en cuenta, y no se tenga que retroceder en lo que se ha desarrollado.
+      img.imgpos3(src='@/assets/curso/imgtem03.jpg')(data-aos="zoom-in-left")
+      p.align-center.col-7(data-aos="zoom-in-right") Durante la ejecución del proyecto se encuentran muchas situaciones, en las que se identifican nuevas necesidades, las cuales ni siquiera se habían pensado, pero se hace necesario anexarlas a la aplicación.<br><br>Estos cambios imprevistos, hacen que se replanteen nuevos requerimientos e incluso requerimientos ya documentados.<br><br>Se debe definir desde un principio la forma en que se gestionaran dichos cambios, debido a que pueden generar retrocesos en el desarrollo y en la planeación.<br><br>Se deben incluir cláusulas contractuales claras para que las partes a intervenir lo tengan en cuenta, y no se tenga que retroceder en lo que se ha desarrollado.
     <br>
     <br>
     <br>
-    h3 Técnicas en el levantamiento de requerimientos
+    h3(data-aos="zoom-out-right") Técnicas en el levantamiento de requerimientos
     <br>
     <br>
-    p.col12 La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados (stakeholders); también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de software:
+    p.col12(data-aos="zoom-out-right") La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados (stakeholders); también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de software:
     <br>
     <br>   
-    img.imgpos3(src='@/assets/curso/imgtem04.jpg')
-    .row.mb-5
+    img.imgpos3(src='@/assets/curso/imgtem04.jpg')(data-aos="fade-up")
+    .row.mb-5(data-aos="fade-up")
       .col-md-12.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Análisis de documentación").m-3
@@ -133,7 +133,7 @@
               br
               li Las historias de usuario son una de las técnicas más importantes al momento de levantar requerimientos.
 
-    .cajon-b.colorcajon3.col-10
+    .cajon-b.colorcajon3.col-10(data-aos="zoom-in")
       h3 Los requerimientos:
       ul(style="list-style-type: square").lup
         li Son las condiciones o capacidades que debe conservar un sistema, producto, servicio o componente para satisfacer las necesidades mediante un contrato, cumplir con estándares, especificaciones y demás documentos de manera formal.
@@ -142,27 +142,27 @@
         br
         li Así mismo, se pueden relacionar los requisitos como las restricciones impuestas a un usuario por algunos interesados, definiendo objetivos precisos de un proyecto.
     br
-    p Las restricciones siempre serán necesarias para lograr manipular o editar el manejo de la aplicación de manera controlada, efectiva y funcional, para que se lleven a cabo los procesos de manera eficaz en la operación de las tareas.
+    p(data-aos="zoom-in") Las restricciones siempre serán necesarias para lograr manipular o editar el manejo de la aplicación de manera controlada, efectiva y funcional, para que se lleven a cabo los procesos de manera eficaz en la operación de las tareas.
 
-    .cajon.cajontitle2.col-2
-      h3.text Restricciones
+    .cajon.cajontitle2.col-2(data-aos="zoom-in")
+      h3.text(data-aos="zoom-in") Restricciones
     br
     br
-    p Hacen énfasis, por ejemplo, en los permisos de accesos a usuarios en el sistema.
+    p(data-aos="zoom-in") Hacen énfasis, por ejemplo, en los permisos de accesos a usuarios en el sistema.
     br
-    p Todos los usuarios del sistema lo podrán operar, pero no todos tienen los mismos derechos en la aplicación.
+    p(data-aos="zoom-in") Todos los usuarios del sistema lo podrán operar, pero no todos tienen los mismos derechos en la aplicación.
     br
-    p Así como existen operadores de la aplicación, habrá usuarios con permisos de administradores que podrán manipular más a fondo la aplicación. 
+    p(data-aos="zoom-in") Así como existen operadores de la aplicación, habrá usuarios con permisos de administradores que podrán manipular más a fondo la aplicación. 
 
     Separador
     br
-    .titulo-segundo.color-acento-contenido
-    h2 1.1 Características de requerimientos
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    h2(data-aos="zoom-in") 1.1 Características de requerimientos
     br
-    p Los requerimientos deben cumplir con cierto tipo de características y criterios:
+    p(data-aos="zoom-in") Los requerimientos deben cumplir con cierto tipo de características y criterios:
     br
-    img.imgpos3(src='@/assets/curso/imgtem05.jpg')
-    .row.mb-5
+    img.imgpos3(src='@/assets/curso/imgtem05.jpg')(data-aos="zoom-in-left")
+    .row.mb-5(data-aos="zoom-in-right")
       .col-md-12.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Verificable").m-3
@@ -201,43 +201,43 @@
             ul(style="list-style-type: square")
               p También debe ser específico, se deben tener en cuenta todas las condiciones que se pueden llegar a presentar.
 
-    .cajon.cajontitle3.col-3
-      h3.text Estructura de los requerimientos
+    .cajon.cajontitle3.col-3(data-aos="zoom-in")
+      h3.text(data-aos="zoom-in") Estructura de los requerimientos
     br
-    p Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los stakeholders como se muestra en la siguiente imagen:
+    p(data-aos="zoom-in") Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los stakeholders como se muestra en la siguiente imagen:
     br
-    img.col-10.imgpos4(src='@/assets/curso/imgtem06.jpg')
+    img.col-10.imgpos4(src='@/assets/curso/imgtem06.jpg')(data-aos="zoom-in")
     br
-    p Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
+    p(data-aos="zoom-in") Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
     br
 
-    .cajon.cajontitle4.col-3
+    .cajon.cajontitle4.col-3(data-aos="zoom-in")
       h3.text ¿Qué es la trazabilidad?
-    img.imgpos5(src='@/assets/curso/imgtem07.jpg')
+    img.imgpos5(src='@/assets/curso/imgtem07.jpg')(data-aos="zoom-in-left")
     br
-    p Es la documentación de la vida de cada uno de los requerimientos, permitiendo el historial de su formulación original hasta el documento final
-    b Se debe documentar cada paso de manera estricta para conseguir la trazabilidad.
+    p(data-aos="zoom-in-right") Es la documentación de la vida de cada uno de los requerimientos, permitiendo el historial de su formulación original hasta el documento final
+    b(data-aos="zoom-in-right") Se debe documentar cada paso de manera estricta para conseguir la trazabilidad.
     br
     br
-    p Los requerimientos y necesidades surgen de diversas fuentes, como el cliente, el manager, los usuarios, etc., todos y cada uno comprenden de diferentes formas los requerimientos, y es en este momento, donde los requerimientos se deben precisar para poder planear y llevarlo a la ejecución.<br><br>Utilizando la trazabilidad se sigue el historial de cada característica implementada hasta las personas o grupos que solicitaron la generación de los requerimientos, de esta manera, se permite un análisis más rápido en cada fase del proyecto.
+    p(data-aos="zoom-in-right") Los requerimientos y necesidades surgen de diversas fuentes, como el cliente, el manager, los usuarios, etc., todos y cada uno comprenden de diferentes formas los requerimientos, y es en este momento, donde los requerimientos se deben precisar para poder planear y llevarlo a la ejecución.<br><br>Utilizando la trazabilidad se sigue el historial de cada característica implementada hasta las personas o grupos que solicitaron la generación de los requerimientos, de esta manera, se permite un análisis más rápido en cada fase del proyecto.
     br 
     br
-    .cajon.cajontitle4.col-3
+    .cajon.cajontitle4.col-3(data-aos="zoom-in")
       h3.text Tipos de requerimientos
     br
-    p Los requerimientos se clasifican en:
+    p(data-aos="zoom-in") Los requerimientos se clasifican en:
     br
 
-    .titulo_principal
+    .titulo_principal(data-aos="zoom-in")
       h3 Requerimientos funcionales
     br
-    img.imgpos7(src='@/assets/curso/imgtem08.jpg')
-    .cajon-b.colorcajon4.col-10
-      p.align-center.margentext Son las declaraciones de los servicios que prestará el sistema, es la forma como reacciona a determinadas funciones. Del mismo modo, podrían ser la manera de interactuar con otros sistemas, el tipo de respuestas automáticas y los procesos predefinidos. En otros casos también los requisitos funcionales establecen de manera precisa lo que el sistema no debe hacer, es decir también puede ser una declaración negativa.     
+    img.imgpos7(src='@/assets/curso/imgtem08.jpg')(data-aos="zoom-in-left")
+    .cajon-b.colorcajon4.col-10(data-aos="zoom-in-right")
+      p.align-center.margentext(data-aos="zoom-in-right") Son las declaraciones de los servicios que prestará el sistema, es la forma como reacciona a determinadas funciones. Del mismo modo, podrían ser la manera de interactuar con otros sistemas, el tipo de respuestas automáticas y los procesos predefinidos. En otros casos también los requisitos funcionales establecen de manera precisa lo que el sistema no debe hacer, es decir también puede ser una declaración negativa.     
     br
-    p De igual forma, los requerimientos funcionales también son las características que tendrá el sistema o aplicación, son las funciones que actúan directamente con los usuarios, por ejemplo, las pantallas que permiten utilizar dicha aplicación, lo que se puede visualizar, como Facebook, Instagram, etc., sus menús, diseños, botones, colores y demás funcionalidades que hacen muy amigable la interacción con el usuario.
+    p(data-aos="zoom-in-right") De igual forma, los requerimientos funcionales también son las características que tendrá el sistema o aplicación, son las funciones que actúan directamente con los usuarios, por ejemplo, las pantallas que permiten utilizar dicha aplicación, lo que se puede visualizar, como Facebook, Instagram, etc., sus menús, diseños, botones, colores y demás funcionalidades que hacen muy amigable la interacción con el usuario.
     br
-    p Por otra parte, los mayores problemas se encuentran cuando existen especificaciones de requisitos inexactas o incoherentes. Si un analista de los requerimientos del sistema
+    p(data-aos="zoom-in-right") Por otra parte, los mayores problemas se encuentran cuando existen especificaciones de requisitos inexactas o incoherentes. Si un analista de los requerimientos del sistema
       span.text-bold toma suposiciones como conocimientos universales, podría conllevar un riesgo para el sistema
       span , es mejor siempre ser preciso y definirlo. Estos problemas se pueden encontrar en las funciones comunes relacionadas con las experiencias de usuario.
     br

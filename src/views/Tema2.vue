@@ -153,7 +153,6 @@
       h2.text Guías:
       p.margentext4 se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
 
-
     .tarjeta.fond3.col-2
       .row.justify-content-center
         img.icon2(src='@/assets/curso/car.png' alt='AvatarTop')
@@ -195,7 +194,7 @@
     br
     br
     br
-    .cajon-b.col-9.cajontitle1
+    .cajon-b.col-9.cajontitle7
       h3.col-9.text Las figuras utilizadas en un diagrama de flujo son: 
     br
     br
@@ -243,8 +242,8 @@
         .col-md-4
           figure
             img(src='@/assets/template/5.png')
-            
-    .cajon-b.col-9.cajontitle2
+
+    .cajon-b.col-9.cajontitle8
       p.col-10.text2 Los diagramas de flujo a veces los denominan con nombres más especializados, como: 
         br
         br
@@ -259,6 +258,102 @@
           li Mapa de procesos de negocio.
           br
           li BPMN, modelado de procesos de negocio. 
+    br
+    br
+    h3.text2 Se relacionan con otros diagramas populares, como: 
+    br
+    SlyderE(indicadores="derecha")
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Mapa de procesos
+          p Es un diagrama de valor que representa una manera de inventario gráfico de los procesos de una organización en forma relacionada.
+
+        .col-md-8
+          figure
+            img(src='@/assets/template/Diagrama1.jpg')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Diagrama de flujo
+          p Es la representación gráfica de cada proceso y sus pasos se representan por un símbolo diferente que contiene una descripción de la etapa del proceso.
+
+        .col-md-8
+          figure
+            img(src='@/assets/template/Diagrama2.jpg')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Diagrama de flujo funcional
+          p Es un tipo de diagrama de flujo, que muestra el movimiento entre unidades de trabajo. Puede utilizar símbolos de los diagramas de flujo estándares (Edukativos, 2013).
+
+        .col-md-8
+          figure
+            img(src='@/assets/template/Diagrama3.jpg')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Mapas de proceso de negocio
+          p Describen los pasos que una empresa debe realizar para completar un proceso, por ejemplo, contratar a un empleado, solicitar productos y transportarlos.
+
+        .col-md-8
+          figure
+            img(src='@/assets/template/Diagrama4.jpg')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Símbolos y notación de diagrama BPMN
+          p El diagrama de modelo y notación de procesos de negocio es también llamado diagrama BPMN, utilizado para crear diagramas de flujo de modelos de procesos de negocio, que sean fáciles de leer.
+        
+        .col-md-8
+          figure
+            img(src='@/assets/template/Diagrama5.jpg')
+    br
+    .cajon.cajontitle6.col-3
+      h3.text El modelo BPMN
+    br
+    img.icon4(src='@/assets/curso/imgtem207.jpg').col-4
+    p.col-7.textizq5 Se denomina así por su sigla en inglés Business Process Modeling Notation, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
+    ul(style="list-style-type: square").col-6.textizq4
+      li Eventos.
+      br
+      li Actividades.
+      br
+      li Compuertas (control de flujo).
+    br
+    p.col-12.text3 Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
+
+    .tarjeta.color-primario.fond4.col-4
+      .row.justify-content-center
+        img.icon2(src='@/assets/curso/fig3.png' alt='AvatarTop')
+      h2.text Compuertas
+      p.margentext5 Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
+
+    .tarjeta.color-primario.fond4.col-4
+      .row.justify-content-center
+        img.icon2(src='@/assets/curso/fig2.png' alt='AvatarTop')
+      h2.text Actividades
+      p.margentext5 Representan el trabajo realizado dentro de una organización.<br/><br/>Consumen recursos.<br/><br/>Pueden ser simples o compuestas.
+
+
+    .tarjeta.color-primario.fond4.col-4
+      .row.justify-content-center
+        img.icon2(src='@/assets/curso/fig1.png' alt='AvatarTop')
+      h2.text Eventos
+      p.margentext5 Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
+    br
+    br
+    p.col-12.text4 El siguiente es un ejemplo de modelo BPMN:
+    img(src='@/assets/curso/modelo.jpg').col-12
+
+    .tarjeta.coloamarillo.p-3.mb-5.col-10
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/video.png")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.text-small Para mayor comprensión de los diagramas BPMN y aprender a hacer uno se invita al aprendiz a ver el Video ayuda para hacer un diagrama BPMN ubicado en la sección de material complementario.
+
 
 </template>
 
