@@ -190,9 +190,75 @@
     .cajon.cajontitle6.col-3
       h3.text Diagrama de flujo
     br
-    img.icon4(src='@/assets/curso/imgtem206.jpg').col-3
+    img.icon4(src='@/assets/curso/imgtem206.jpg').col-4
     p.col-7.textizq3 Es un diagrama que describe un proceso, sistema o algoritmo informático, es usado ampliamente en muchos campos para documentar, estudiar, mejorar, planificar y comunicar procesos que suelen ser muy complejos en algunos diagramas claros y fáciles en su comprensión.<br/><br/>En los diagramas se utilizan rectángulos, óvalos, diamantes y otras figuras más para definir el tipo de paso, junto a flechas conectoras estableciendo flujos y secuencias. Varían desde diagramas simples o hechos a mano, hasta los más complejos creados en computadora, describiendo múltiples pasos y rutas. 
+    br
+    br
+    br
+    .cajon-b.col-9.cajontitle1
+      h3.col-9.text Las figuras utilizadas en un diagrama de flujo son: 
+    br
+    br
+    PasosA.color-acento-contenido.mb-5(tipo="n")
+      .row
+        .col-md-8.mb-4.mb-md-0
+          h3 Inicio / Final
+          p Representa el inicio y el final de un proceso.
+        .col-md-4
+          figure
+            img(src='@/assets/template/1.png')
 
+      .row
+        .col-md-4.mb-4.mb-md-0
+          figure
+            img(src='@/assets/template/2.png')
+        
+        .col-md-8
+          h3 Línea de flujo 
+          p Indica el orden de la ejecución de las operaciones. Las flechas indican la siguiente instrucción.
+
+      .row
+        .col-md-8.mb-4.mb-md-0
+          h3 Entrada / Salida
+          p Representa la lectura de datos en la entrada y la impresión de datos en la salida.
+
+        .col-md-4
+          figure
+            img(src='@/assets/template/3.png')
+
+      .row
+        .col-md-4
+          figure
+            img(src='@/assets/template/4.png')
+        
+        .col-md-8.mb-4.mb-md-0
+          h3 Proceso
+          p Representa cualquier tipo de operación.
+
+      .row
+        .col-md-8.mb-4.mb-md-0
+          h3 Decisión
+          p Permite analizar una situación, con base en los valores verdadero y falso.
+
+        .col-md-4
+          figure
+            img(src='@/assets/template/5.png')
+            
+    .cajon-b.col-9.cajontitle2
+      p.col-10.text2 Los diagramas de flujo a veces los denominan con nombres más especializados, como: 
+        br
+        br
+        img.col-2.icon5(src='@/assets/template/iconcuadro.png') 
+        ul(style="list-style-type: square")
+          li Mapas de procesos.
+          br
+          li Diagramas de flujo de procesos.
+          br
+          li Diagrama de flujo funcional.
+          br
+          li Mapa de procesos de negocio.
+          br
+          li BPMN, modelado de procesos de negocio. 
 
 </template>
 
