@@ -241,14 +241,14 @@
       span.text-bold toma suposiciones como conocimientos universales, podría conllevar un riesgo para el sistema
       span , es mejor siempre ser preciso y definirlo. Estos problemas se pueden encontrar en las funciones comunes relacionadas con las experiencias de usuario.
     br
-    .cajon-b.colorcajon5.col-12
+    .cajon-b.colorcajon5.col-12(data-aos="zoom-in")
       p.textizq.col-10.m-4 El analista es el responsable de la documentación, por lo tanto, el mismo deberá tratar de asegurarse que no hay lagunas de comprensión, por eso es importante tener en cuenta las historias de usuario, asegurándose de que todo el equipo está sincronizado respecto a los requisitos, objetivos e implementación.
       img(src='@/assets/curso/imgtem09.png').col-1.m-3
     br
-    p Algunos ejemplos de requerimientos funcionales con características que permiten utilizar la aplicación de manera cómoda y visual, ya sea en el diseño, menú, botones, entre otros, son:
+    p(data-aos="zoom-in") Algunos ejemplos de requerimientos funcionales con características que permiten utilizar la aplicación de manera cómoda y visual, ya sea en el diseño, menú, botones, entre otros, son:
     br
     br
-    SlyderE(indicadores="derecha")
+    SlyderE(indicadores="derecha")(data-aos="zoom-in")
       .row
         .col-md-4.mb-2.mb-md-0
           h3 Interfaz de captura
@@ -285,50 +285,50 @@
             img(src='@/assets/curso/imgtem11.jpg')
     br
     br
-    .titulo_principal
+    .titulo_principal(data-aos="zoom-in")
       h3 Requerimientos no funcionales
     br
-    img.imgpos8(src='@/assets/curso/imgtem12.jpg') 
+    img.imgpos8(src='@/assets/curso/imgtem12.jpg')(data-aos="zoom-in-left") 
     br
-    p.col-7 Son los requerimientos que no interfieren con las funciones específicas que entrega el sistema, asegurando la fiabilidad, tiempos de respuesta y capacidad de almacenamiento. En otras palabras, no habla de lo que hace el sistema, sino de cómo lo hace, define restricciones de entrada y salida, representando datos utilizados en las interfaces del sistema. <br><br>Puede ser con lenguaje de programación Java, con alta velocidad de procesamiento de datos, para un óptimo funcionamiento de la aplicación, disponibilidad, entre otros. Son los requisitos que debe tener la aplicación para que funcione adecuadamente, se encargan de que la aplicación cumpla con lo que tiene que hacer.
-    .cajon-b.colorcajon6.col-7 
+    p.col-7(data-aos="zoom-in-right") Son los requerimientos que no interfieren con las funciones específicas que entrega el sistema, asegurando la fiabilidad, tiempos de respuesta y capacidad de almacenamiento. En otras palabras, no habla de lo que hace el sistema, sino de cómo lo hace, define restricciones de entrada y salida, representando datos utilizados en las interfaces del sistema. <br><br>Puede ser con lenguaje de programación Java, con alta velocidad de procesamiento de datos, para un óptimo funcionamiento de la aplicación, disponibilidad, entre otros. Son los requisitos que debe tener la aplicación para que funcione adecuadamente, se encargan de que la aplicación cumpla con lo que tiene que hacer.
+    .cajon-b.colorcajon6.col-7(data-aos="zoom-in-right") 
       p.align-center.margentext Los 
         span.text-bold requerimientos no funcionales 
         span son los requisitos que debe tener la aplicación para que funcione adecuadamente; estos se encargan de que la aplicación cumpla con lo que se quiere hacer, por otro lado, los 
         span.text-bold requerimientos funcionales 
         span son todo lo que el usuario ve y manipula.
     br
-    p A continuación, se muestran ejemplos de requisitos no funcionales dentro de una aplicación para pedir un taxi:
+    p(data-aos="zoom-in-right") A continuación, se muestran ejemplos de requisitos no funcionales dentro de una aplicación para pedir un taxi:
     br
 
-    .tarjeta.color-primario.fond.col-5
+    .tarjeta.color-primario.fond.col-5(data-aos="zoom-in-right")
       .row.justify-content-center
         img.icon1(src='@/assets/curso/icon1.png' alt='AvatarTop')
       h2.text-center Operación 7x24
       p.margentext3 La aplicación debe operar las 24 horas del día durante todo el año.<br/><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
 
-    .tarjeta.color-primario.fond2.col-5
+    .tarjeta.color-primario.fond2.col-5(data-aos="zoom-in-left") 
       .row.justify-content-center
         img.icon1(src='@/assets/curso/icon2.png' alt='AvatarTop')
       h2.text-center Registro de usuario
       p.margentext3 Para su uso se requieren datos de registro.<br/><br/>Esta opción de seguridad es un requisito que no se puede ver, pero es necesario para que la aplicación funcione; es un requisito no funcional. 
     br
     br
-    .cajon-b.colorcajon7.col-10
+    .cajon-b.colorcajon7.col-10(data-aos="zoom-in")
       p 
         span.text-bold Los requerimientos no funcionales no se pueden ver ni tocar
         span , porque están “detrás” de la aplicación, para que funcione de manera rápida, segura y en cualquier momento. 
 
-    .titulo-segundo.color-acento-contenido
-    h2 1.2 Documentación de requerimientos
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    h2(data-aos="zoom-in") 1.2 Documentación de requerimientos
 
-    img.imgpos9(src='@/assets/curso/imgtem13.jpg')
+    img.imgpos9(src='@/assets/curso/imgtem13.jpg')(data-aos="zoom-in-right")
     br
-    span.text-bold El documento de requerimientos es el lugar donde se describen las características y requisitos de un software, programa, conjunto de programas o productos.
-    span  Son expresados en lenguaje natural, sin términos técnicos ni consideraciones.
+    span.text-bold(data-aos="zoom-in-left") El documento de requerimientos es el lugar donde se describen las características y requisitos de un software, programa, conjunto de programas o productos.
+    span(data-aos="zoom-in-left")  Son expresados en lenguaje natural, sin términos técnicos ni consideraciones.
     br
     br  
-    p La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar el software y los clientes o usuarios finales que utilizarán el mismo.
+    p(data-aos="zoom-in-left") La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar el software y los clientes o usuarios finales que utilizarán el mismo.
     br
     br
     br
@@ -336,7 +336,7 @@
     br
     br
     
-    .tarjeta.colorblue.p-3.mb-5
+    .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/componentes/icon1.png")
@@ -350,13 +350,13 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    p Es importante mencionar que, de acuerdo con las necesidades de cada proyecto, podría ser necesario incluir elementos o información complementaria a este documento. A continuación, se comparte un esquema descriptivo de una plantilla de documento de requerimientos de software:
+    p(data-aos="zoom-in") Es importante mencionar que, de acuerdo con las necesidades de cada proyecto, podría ser necesario incluir elementos o información complementaria a este documento. A continuación, se comparte un esquema descriptivo de una plantilla de documento de requerimientos de software:
     br
     br
     br
     br
 
-    ImagenInfografica.color-secundario.mb-5.col-8.alinearcuadro
+    ImagenInfografica.color-secundario.mb-5.col-8.alinearcuadro(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
           img(src='@/assets/template/imgmap.png', alt='Texto que describa la imagen')
