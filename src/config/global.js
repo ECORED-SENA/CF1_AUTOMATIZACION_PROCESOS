@@ -104,139 +104,158 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Abiztar. (2019). UML - Diagrama de interacción. [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=srn6e0nz2b4&ab_channel=Abiztar',
+    },
+    {
+      referencia:
+        'Alteco. (2021). Qué es un diagrama de flujo de proceso o flujograma.',
+      link: 'https://www.aiteco.com/diagrama-de-flujo',
+    },
+    {
+      referencia:
+        'Castillo, J. M. (2017). Tutorial BPMN con Visio. [Video]. YouTube.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.youtube.com/watch?v=rQCzHZGiZmI&ab_channel=Jos%C3%A9MiguelCastillo',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Cevallos K. (2021). Diagramas UML, ingeniería del software. Re',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://ingsotfwarekarlacevallos.wordpress.com/category/diagramas-uml',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Colaboradores de los proyectos Wikimedia. (2021). Business Process Model and Notation.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://es.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&oldid=139122191',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Control Goup. (2021). Qué es y cómo elaborar un mapa de procesos. Evaluando ERP.',
+      link: 'https://www.evaluandoerp.com/elaborar-mapa-procesos',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Digital Guide. (2020). Diagrama de componentes: modelado eficiente de sistemas con módulos de software.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/diagrama-de-componentes',
+    },
+    {
+      referencia: 'Edukativos. (2013). Diagrama de flujo funcional.',
+      link: 'https://edukativos.com/apuntes/archives/4044',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Fuentes, A. (2021). Diagrama de actividades - registrar venta | UML. [Video]. YouTube.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.youtube.com/watch?v=C2MizD1yztk&ab_channel=AlexanderTutoriales',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Global Suite. (2021). Mapa de procesos de una organización, ¿qué es y cómo se elabora?',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.globalsuitesolutions.com/es/que-es-mapa-de-procesos-y-como-se-elabora',
+    },
+    {
+      referencia: 'Ibáñez, J. (2021). Los requerimientos de un proyecto.',
+      link: 'http://www.liderdeproyecto.com/manual/los_requerimientos.html',
+    },
+    {
+      referencia:
+        'Lucidchart (2021a). Tutorial sobre diagramas de estructura compuesta.',
+      link:
+        'https://www.lucidchart.com/pages/es/diagrama-de-estructura-compuesta-uml',
+    },
+    {
+      referencia: 'Lucidchart. (2021b). Tutorial de diagramas de despliegue.',
+      link:
+        'https://www.lucidchart.com/pages/es/tutorial-de-diagramas-de-despliegue',
+    },
+    {
+      referencia:
+        'Lucidchart. (2021c). Ejemplo de diagrama de caso de uso de sistema bancario.',
+      link:
+        'https://www.lucidchart.com/pages/es/templates/uml-use-case/lucidchart-ejemplo-de-diagrama-de-caso-de-uso-de-sistema-bancario',
+    },
+    {
+      referencia:
+        'Montero, A. (2020). Diagrama de despliegue. [Video]. YouTube.',
+      link:
+        'https://www.youtube.com/watch?v=tWuZu9YLSvU&ab_channel=AnabelMontero',
+    },
+    {
+      referencia:
+        'Nicosiored. (2017). Diagrama de Objetos - 10 - Tutorial UML en español. [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=Rhgg3hSI6I0&ab_channel=nicosiored',
+    },
+    {
+      referencia:
+        'Nicosiored. (2018). Diagrama de Paquetes I - 11 - Tutorial UML en español. [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=ataioNckj-E&ab_channel=nicosiored',
+    },
+    {
+      referencia: 'Ocares, O. (2020). Introducción a BPMN.',
+      link: 'https://bpmn-bayard.blogspot.com/2011/03/1-introduccion-bpmn.html',
+    },
+    {
+      referencia:
+        'Penades, M. C. (2017). Diagrama de clases. [Video]. YouTube.',
+      link:
+        'https://www.youtube.com/watch?v=JioEGJIlg88&ab_channel=UniversitatPolit%C3%A8cnicadeVal%C3%A8ncia-UPV',
+    },
+    {
+      referencia:
+        'PMO Informática. (2021). Documento de requerimientos de software.',
+      link:
+        'http://www.pmoinformatica.com/2018/04/documento-de-requerimientos-de-software_37.html',
+    },
+    {
+      referencia: 'Smartdraw.com. (2021). Símbolos de diagramas de flujo.',
+      link:
+        'https://www.smartdraw.com/flowchart/simbolos-de-diagramas-de-flujo.htm?web=1&wdLOR=c9E21012A-2771-4ABE-BDC6-936DB95A1A2D',
+    },
+    {
+      referencia: 'TicNews, R. (2013). Diagrama de estados. [Video]. YouTube.',
+      link:
+        'https://www.youtube.com/watch?v=hbWfk_-57qc&ab_channel=RevistaTicNews',
+    },
+    {
+      referencia:
+        'Torres, I. (2020). Diagrama de flujo - Una herramienta para visualizar tus procesos.',
+      link: 'https://iveconsultores.com/diagrama-de-flujo',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'BPMN',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Business Process Modeling Notation, notación para el modelado de procesos de negocios.',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Diagrama',
+      significado: 'representación gráfica de uno o varios procesos.',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Documentación',
+      significado: 'testimonio material de los hechos.',
     },
     {
-      termino: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+      termino: 'Procesos',
+      significado: 'conjunto de fases sucesivas de un hecho.',
     },
     {
-      termino: 'Moda',
+      termino: 'Stakeholder',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'grupo de personas interesadas que deben influir en la aplicación.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+      texto: 'Crear diagrama BPMN',
       tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link:
+        'https://www.youtube.com/watch?v=rQCzHZGiZmI&ab_channel=Jos%C3%A9MiguelCastillo',
     },
   ],
   creditos: {
@@ -254,6 +273,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Erika Barrera Montañez',
+        cargo: 'Experta Temática',
+        centro:
+          'Centro para el Desarrollo Rural y Minero CEDRUM Regional Norte de Santander',
+      },
+      {
+        nombre: 'Beatriz Eugenia Agudelo Vásquez',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -263,30 +304,54 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Edison Eduardo Mantilla Cuadros',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jaime Enrique Díaz Reyes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Deivy Giovanni Fonseca Bermudéz',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
