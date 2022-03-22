@@ -274,26 +274,26 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Erika Barrera Montañez',
-        cargo: 'Experta Temática',
+        nombre: 'Luis Eyder Ortiz',
+        cargo: 'Experto Temático',
         centro:
-          'Centro para el Desarrollo Rural y Minero CEDRUM Regional Norte de Santander',
+          'Regional Cauca, Centro de teleinformática y producción industrial',
       },
       {
-        nombre: 'Beatriz Eugenia Agudelo Vásquez',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        nombre: 'Gustavo Santis Mancipe',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología Regional distrito Capital',
       },
       {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología ',
       },
       {
-        nombre: 'Julia Isabel Roberto',
-        cargo: 'Diseñadora y evaluadora instruccional',
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
         centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
       },
     ],
     desarrolloProducto: [
@@ -306,73 +306,13 @@ export default {
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Edison Eduardo Mantilla Cuadros',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy Maria Ruiz Torres',
-        cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Wilson Andrés Arenales Caceres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Gilberto Junior Rodriguez Rodriguez',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Laura Ximena Hurtado Villalba ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Lady Adriana Ariza Luque',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Yicelly Estefania Mesa Silva',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'John Jairo Arciniegas González',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Carmen Alicia Martínez Torres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Deivy Giovanni Fonseca Bermudéz',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactur Regional Santander',
       },
       {
         nombre: 'Melina Tatiana Quintero Rodriguez',
