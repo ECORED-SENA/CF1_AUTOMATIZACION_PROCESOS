@@ -230,7 +230,7 @@ export default {
     {
       termino: 'BPMN',
       significado:
-        'Business Process Modeling Notation, notación para el modelado de procesos de negocios.',
+        '<i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios.',
     },
     {
       termino: 'Diagrama',
@@ -245,7 +245,7 @@ export default {
       significado: 'conjunto de fases sucesivas de un hecho.',
     },
     {
-      termino: 'Stakeholder',
+      termino: '<i>Stakeholder</i>',
       significado:
         'grupo de personas interesadas que deben influir en la aplicación.',
     },

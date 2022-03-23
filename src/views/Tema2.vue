@@ -312,7 +312,7 @@
       h3.text El modelo BPMN
     br
     img.icon4(src='@/assets/curso/imgtem207.jpg').col-4(data-aos="zoom-in-left")
-    p.col-7.textizq5(data-aos="zoom-in-right") Se denomina así por su sigla en inglés Business Process Modeling Notation, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
+    p.col-7.textizq5(data-aos="zoom-in-right") Se denomina así por su sigla en inglés <i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
     ul(style="list-style-type: square").col-6.textizq4(data-aos="zoom-in-right")
       li Eventos.
       br
