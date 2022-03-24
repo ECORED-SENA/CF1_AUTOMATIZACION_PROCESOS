@@ -324,27 +324,34 @@
     br
     p.col-12.text3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
 
-    .tarjeta.color-primario.fond4.col-4(data-aos="flip-right")
+    br 
+    .col-12
       .row.justify-content-center
-        img.icon2(src='@/assets/curso/fig3.png' alt='AvatarTop')
-      h2.text Compuertas
-      p.margentext5 Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
-
-    .tarjeta.color-primario.fond4.col-4(data-aos="flip-right")
-      .row.justify-content-center
-        img.icon2(src='@/assets/curso/fig2.png' alt='AvatarTop')
-      h2.text Actividades
-      p.margentext5 Representan el trabajo realizado dentro de una organización.<br/><br/>Consumen recursos.<br/><br/>Pueden ser simples o compuestas.
-
-
-    .tarjeta.color-primario.fond4.col-4(data-aos="flip-right")
-      .row.justify-content-center
-        img.icon2(src='@/assets/curso/fig1.png' alt='AvatarTop')
-      h2.text Eventos
-      p.margentext5 Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
-    br
+        .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.curuba
+          img(src='@/assets/curso/tar7.png', alt='', class='img-fluid')
+          h3.text-center.m-3 Eventos
+          p.m-4 Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
+        .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
+          img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
+          h3.text-center.m-3 Actividades
+          ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4
+            li 
+              i.fas.fa-angle-right  
+              p Representan el trabajo realizado dentro de una organización.
+            li 
+              i.fas.fa-angle-right 
+              p Consumen recursos.
+            li 
+              i.fas.fa-angle-right    
+              p Pueden ser simples o compuestas.
+ 
+        .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
+          img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
+          h3.text-center.m-3 Compuertas
+          p.m-4 Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
     br
     p.col-12.text4(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
+    br
     img(src='@/assets/curso/modelo.jpg').col-12(data-aos="zoom-in")
 
     .tarjeta.coloamarillo.p-3.mb-5.col-10(data-aos="zoom-in")
