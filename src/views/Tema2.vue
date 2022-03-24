@@ -39,7 +39,7 @@
       .row
         .col-md-6.mb-4.mb-md-0
           h3 Diagrama de componentes 
-          p Representan las relaciones entre los componentes individuales del sistema por medio de una vista de diseño estática. Ilustran modelado de aspecto lógico y físico. Muestra las organizaciones y dependencias entre componentes y artefactos (Digital Guide, 2020)
+          p Representan las relaciones entre los componentes individuales del sistema por medio de una vista de diseño estática. Ilustran modelado de aspecto lógico y físico.<br><br/> Muestra las organizaciones y dependencias entre componentes y artefactos (Digital Guide, 2020)
 
         .col-md-6
           figure
@@ -200,46 +200,46 @@
     br
     PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="zoom-in")
       .row
-        .col-md-8.mb-4.mb-md-0
+        .col-8.esp2
           h3 Inicio / Final
           p Representa el inicio y el final de un proceso.
-        .col-md-4
+        .col-4.esp1
           figure
             img(src='@/assets/template/1.png')
 
       .row
-        .col-md-4.mb-4.mb-md-0
+        .col-4.esp4
           figure
             img(src='@/assets/template/2.png')
         
-        .col-md-8
+        .col-7.esp3
           h3 Línea de flujo 
           p Indica el orden de la ejecución de las operaciones. Las flechas indican la siguiente instrucción.
 
       .row
-        .col-md-8.mb-4.mb-md-0
+        .col-6.esp5
           h3 Entrada / Salida
           p Representa la lectura de datos en la entrada y la impresión de datos en la salida.
 
-        .col-md-4
+        .col-4.esp4
           figure
             img(src='@/assets/template/3.png')
 
       .row
-        .col-md-4
+        .col-4.esp6
           figure
             img(src='@/assets/template/4.png')
         
-        .col-md-8.mb-4.mb-md-0
+        .col-8.esp7
           h3 Proceso
           p Representa cualquier tipo de operación.
 
       .row
-        .col-md-8.mb-4.mb-md-0
+        .col-8.esp9
           h3 Decisión
           p Permite analizar una situación, con base en los valores verdadero y falso.
 
-        .col-md-4
+        .col-4.esp8
           figure
             img(src='@/assets/template/5.png')
 

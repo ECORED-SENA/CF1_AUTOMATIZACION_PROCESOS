@@ -51,153 +51,153 @@
     <br>   
     img.imgpos3(src='@/assets/curso/imgtem04.jpg')(data-aos="fade-up")
     .row.mb-5(data-aos="fade-up")
-      .col-md-12.mb-5.mb-md-0
+      .col-md-12.mb-4.mb-md-0
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Análisis de documentación").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                | Es donde se obtiene la información sobre los requerimientos funcionales y requerimientos no funcionales partiendo de documentos ya elaborados.
+                p Es donde se obtiene la información sobre los requerimientos funcionales y requerimientos no funcionales partiendo de documentos ya elaborados.
               br
               li 
                 i.fas.fa-angle-right 
-                | Se utiliza cuando los expertos en el desarrollo no están disponibles para ser interrogados o ya no forman parte del proceso o la empresa.
+                p Se utiliza cuando los expertos en el desarrollo no están disponibles para ser interrogados o ya no forman parte del proceso o la empresa.
               br
               li 
                 i.fas.fa-angle-right 
-                | Evitar riesgos al no tener documentación.En el momento de necesitarla, se tendrá que hacer en el momento menos oportuno y sin recordar nada, perdiendo información valiosa y tiempo, buscando las soluciones.
+                p Evitar riesgos al no tener documentación.En el momento de necesitarla, se tendrá que hacer en el momento menos oportuno y sin recordar nada, perdiendo información valiosa y tiempo, buscando las soluciones.
           
           p.text-small(numero="2" titulo="Observación").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                | Siempre será necesario analizar el entorno de trabajo de los usuarios, clientes e interesados en el proyecto (<i> stakeholders </i>).
+                p Siempre será necesario analizar el entorno de trabajo de los usuarios, clientes e interesados en el proyecto (<i>stakeholders</i>).
               br
               li 
                 i.fas.fa-angle-right 
-                | Esta técnica es muy útil al documentar la situación actual del proceso de negocio.
+                p Esta técnica es muy útil al documentar la situación actual del proceso de negocio.
               br
               li 
                 i.fas.fa-angle-right 
-                | Puede ser activa o pasiva.
+                p Puede ser activa o pasiva.
               br
               li 
                 i.fas.fa-angle-right 
-                | En la observación pasiva el observador no hace preguntas, solo se limita a tomar notas y no interfiere en el desempeño de las operaciones.
+                p En la observación pasiva el observador no hace preguntas, solo se limita a tomar notas y no interfiere en el desempeño de las operaciones.
               br
               li 
                 i.fas.fa-angle-right 
-                | En la observación activa, el observador habla con los usuarios.
+                p En la observación activa, el observador habla con los usuarios.
           
           p.text-small(numero="3" titulo="Entrevistas").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                | Se realiza con los directos interesados o usuarios clave.
+                p Se realiza con los directos interesados o usuarios clave.
               br
               li 
                 i.fas.fa-angle-right 
-                | Direccionan a los usuarios hacia aspectos específicos a tener en cuenta.
+                p Direccionan a los usuarios hacia aspectos específicos a tener en cuenta.
               br
               li 
                 i.fas.fa-angle-right 
-                | Son demasiado útiles para obtener y documentar datos o información sobre los requerimientos y sus niveles de importancia.
+                p Son demasiado útiles para obtener y documentar datos o información sobre los requerimientos y sus niveles de importancia.
               br
               li 
                 i.fas.fa-angle-right 
-                | Deben ser entrevistas formales e informales para recolectar mucha más información. 
+                p Deben ser entrevistas formales e informales para recolectar mucha más información. 
               br
               li 
                 i.fas.fa-angle-right 
-                | Se deben enfocar los objetivos de la entrevista.
+                p Se deben enfocar los objetivos de la entrevista.
               br
               li 
                 i.fas.fa-angle-right 
-                | Las preguntas cerradas son útiles y ayudan a confirmar y validar información. 
+                p Las preguntas cerradas son útiles y ayudan a confirmar y validar información. 
               br
               li 
                 i.fas.fa-angle-right 
-                | Las preguntas abiertas son útiles y ayudan a identificar información faltante.
+                p Las preguntas abiertas son útiles y ayudan a identificar información faltante.
               br
               li 
                 i.fas.fa-angle-right 
-                | El éxito de las entrevistas depende del grado de conocimiento del entrevistador y el entrevistado. El entrevistado debe tener muy buena disposición, suministrar toda la información, de igual forma debe existir un muy buen registro de la documentación de la discusión y una excelente relación entre las partes involucradas.
+                p El éxito de las entrevistas depende del grado de conocimiento del entrevistador y el entrevistado. El entrevistado debe tener muy buena disposición, suministrar toda la información, de igual forma debe existir un muy buen registro de la documentación de la discusión y una excelente relación entre las partes involucradas.
           
           p.text-small(numero="4" titulo="Encuestas o cuestionarios").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                | Técnica útil para recolectar requerimientos eficientes y necesarios de muchas personas.
+                p Técnica útil para recolectar requerimientos eficientes y necesarios de muchas personas.
               br
               li 
                 i.fas.fa-angle-right 
-                | Deben tener identificado el propósito y la audiencia, definir fechas precisas, preguntas claras y precisas.
+                p Deben tener identificado el propósito y la audiencia, definir fechas precisas, preguntas claras y precisas.
               br
               li 
                 i.fas.fa-angle-right 
-                | Enfocarse en los objetivos de negocio necesarios a identificar.
+                p Enfocarse en los objetivos de negocio necesarios a identificar.
               br
               li 
                 i.fas.fa-angle-right 
-                | Apoyarse en entrevistas de seguimiento e individualizar usuarios.
+                p Apoyarse en entrevistas de seguimiento e individualizar usuarios.
               br
               li 
                 i.fas.fa-angle-right 
-                | En su contenido debe haber preguntas abiertas y cerradas.
+                p En su contenido debe haber preguntas abiertas y cerradas.
 
           p.text-small(numero="5" titulo="Mesas de trabajo <i>(workshops)</i>").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                | Técnica efectiva para analizar información rápida de varias personas.
+                p Técnica efectiva para analizar información rápida de varias personas.
               br
               li 
                 i.fas.fa-angle-right 
-                | Es necesario agendarse en tareas predefinidas y preseleccionar participantes, ajustando buenas prácticas y mejoras continuas de los procesos.
+                p Es necesario agendarse en tareas predefinidas y preseleccionar participantes, ajustando buenas prácticas y mejoras continuas de los procesos.
               br
               li 
                 i.fas.fa-angle-right 
-                | Es conveniente utilizar un facilitador y un transcriptor.
+                p Es conveniente utilizar un facilitador y un transcriptor.
               br
               li 
                 i.fas.fa-angle-right 
-                | Se pueden analizar los resultados en diagramas o flujogramas, en reuniones.
+                p Se pueden analizar los resultados en diagramas o flujogramas, en reuniones.
 
           p.text-small(numero="6" titulo="Lluvia de ideas.").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                | Sesión de trabajo estructurada encaminada a obtener una cantidad de ideas posibles.
+                p Sesión de trabajo estructurada encaminada a obtener una cantidad de ideas posibles.
               br
               li 
                 i.fas.fa-angle-right 
-                | Es ideal limitarlas en tiempo y utilizar ayudas visuales con un facilitador.
+                p Es ideal limitarlas en tiempo y utilizar ayudas visuales con un facilitador.
               br
               li 
                 i.fas.fa-angle-right 
-                | Definir reglas de participación, criterios para evaluar ideas, asignarles un puntaje, no permitir críticas y con límite de tiempo de discusión.
+                p Definir reglas de participación, criterios para evaluar ideas, asignarles un puntaje, no permitir críticas y con límite de tiempo de discusión.
               br
               li 
                 i.fas.fa-angle-right 
-                | Identificar la mayor cantidad de ideas y evaluarlas, considerar todas las ideas y respetar las de los demás.
+                p Identificar la mayor cantidad de ideas y evaluarlas, considerar todas las ideas y respetar las de los demás.
 
           p.text-small(numero="7" titulo="Historias de usuario.").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                | Son simples conversaciones con los usuarios pero muy importantes para levantar requerimientos.
+                p Son simples conversaciones con los usuarios pero muy importantes para levantar requerimientos.
               br
               li 
                 i.fas.fa-angle-right 
-                | Es recomendable que sean escritas por los mismos usuarios o interesados, enfatizando en lo que el sistema debe realizar.
+                p Es recomendable que sean escritas por los mismos usuarios o interesados, enfatizando en lo que el sistema debe realizar.
               br
               li 
                 i.fas.fa-angle-right 
-                | Al momento de redactar una historia deben tenerse en cuenta los roles o cargos de los usuarios, las funcionalidades y los resultados esperados de la aplicación.
+                p Al momento de redactar una historia deben tenerse en cuenta los roles o cargos de los usuarios, las funcionalidades y los resultados esperados de la aplicación.
               br
               li 
                 i.fas.fa-angle-right 
-                | Las historias de usuario son una de las técnicas más importantes al momento de levantar requerimientos.
+                p Las historias de usuario son una de las técnicas más importantes al momento de levantar requerimientos.
 
     .cajon-b.colorcajon3.col-10(data-aos="zoom-in")
       h3 Los requerimientos:
@@ -371,22 +371,19 @@
         span son todo lo que el usuario ve y manipula.
     br
     p(data-aos="zoom-in-right") A continuación, se muestran ejemplos de requisitos no funcionales dentro de una aplicación para pedir un taxi:
-    br
-
-    .tarjeta.color-primario.fond.col-5(data-aos="zoom-in-right")
+    br 
+    .col-12
       .row.justify-content-center
-        img.icon1(src='@/assets/curso/icon1.png' alt='AvatarTop')
-      h2.text-center Operación 7x24
-      p.margentext3 La aplicación debe operar las 24 horas del día durante todo el año.<br/><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
-
-    .tarjeta.color-primario.fond2.col-5(data-aos="zoom-in-left") 
-      .row.justify-content-center
-        img.icon1(src='@/assets/curso/icon2.png' alt='AvatarTop')
-      h2.text-center Registro de usuario
-      p.margentext3 Para su uso se requieren datos de registro.<br/><br/>Esta opción de seguridad es un requisito que no se puede ver, pero es necesario para que la aplicación funcione; es un requisito no funcional. 
+        .col-10.col-lg-4.p-0.m-2.tarjeta-apilado.curuba
+          img(src='@/assets/curso/tar1.jpg', alt='', class='img-fluid')
+          h3.text-center.m-3 Operación 7x24
+          p.m-4 La aplicación debe operar las 24 horas del día durante todo el año.<br><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
+        .col-10.col-lg-4.p-0.m-2.tarjeta-apilado.verde
+          img(src='@/assets/curso/tar2.jpg', alt='', class='img-fluid')
+          h3.text-center.m-3 Registro de usuario
+          p.m-4 Para su uso se requieren datos de registro.<br><br/>Esta opción de seguridad es un requisito que no se puede ver, pero es necesario para que la aplicación funcione; es un requisito no funcional. 
     br
-    br
-    .cajon-b.colorcajon7.col-10(data-aos="zoom-in")
+    .cajon-b.colorcajon7(data-aos="zoom-in")
       p 
         span.text-bold Los requerimientos no funcionales no se pueden ver ni tocar
         span , porque están “detrás” de la aplicación, para que funcione de manera rápida, segura y en cualquier momento. 
@@ -404,10 +401,6 @@
     br
     br
     br
-    br
-    br
-    br
-    
     .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -426,48 +419,36 @@
     br
     br
     br
-    br
-
-    ImagenInfografica.color-secundario.mb-5.col-8.alinearcuadro(data-aos="zoom-in")
+    ImagenInfografica.color-acento-contenido.mb-5.col-6.alinearcuadro(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/template/imgmap.png', alt='Texto que describa la imagen')
+          img(src='@/assets/template/imgmap.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.colorfondo1.p-3(x="84%" y="5%" numero="+")
-        .h5.mb-2 Propósito
+      .tarjeta.colorfondo1.p-4(x="83.6%" y="4.5%" numero="+")
         p Nombre o título del software que está especificado en el documento, incluyendo su número de versión o release. También se describen cuáles componentes o partes del alcance del producto están incluidas en el documento, estableciendo si cubre la totalidad del software, solo una parte del sistema, subsistema o subgrupo de procesos.
 
-      .tarjeta.colorfondo1.p-3(x="98%" y="15%" numero="+")
-        .h5.mb-2 Alcance
+      .tarjeta.colorfondo2.p-4(x="97.7%" y="15.8%" numero="+")
         p Descripción corta del alcance del software que se está especificando, incluyendo: propósito u objetivo general, beneficios que brinda al área de negocio y organización, relación de los objetivos del software con los objetivos corporativos y estrategias de negocio. Se puede hacer referencia a otros documentos.
 
-      .tarjeta.colorfondo1.p-3(x="84%" y="27%" numero="+")
-        .h5.mb-2 Referencias
+      .tarjeta.colorfondo3.p-4(x="83.5%" y="27.2%" numero="+")
         p Aquí se puede incluir otros documentos impresos, documentos o direcciones electrónicas que complementen la documentación de requerimientos de software.
 
-      .tarjeta.colorfondo1.p-3(x="98%" y="38%" numero="+")
-        .h5.mb-2 Funcionalidades
+      .tarjeta.colorfondo4.p-4(x="97.8%" y="38.6%" numero="+")
         p Lista de las funcionalidades del software que se está especificando en el documento de requerimientos. Cada funcionalidad puede estar compuesta por uno o varios requerimientos funcionales de software. Solo se incluye una lista numerada de las principales funcionalidades.<br/><br/>Clases y características de usuarios<br/><br/>Se clasifican los usuarios que utilizaran el producto. La clasificación puede ser en función a la frecuencia de uso, grupo de funcionalidades utilizadas, privilegios de seguridad, nivel de experiencia y otros parámetros.
 
-      .tarjeta.colorfondo1.p-3(x="84%" y="50%" numero="+")
-        .h5.mb-2 Entrono operativo
+      .tarjeta.colorfondo5.p-4(x="83.7%" y="50.2%" numero="+")
         p Se describe el entorno operativo en el que se desenvolverá el sistema, software, módulo o grupo de funcionalidades, mencionando aspectos como la plataforma de hardware, versiones de sistema operativo y otros sistemas o componentes con los que debe coexistir.
 
-      .tarjeta.colorfondo1.p-3(x="98%" y="62%" numero="+")
-        .h5.mb-2 Requerimientos no funcionales
+      .tarjeta.colorfondo6.p-4(x="97.6%" y="61.5%" numero="+")
         p Los requerimientos no funcionales son los que especifican criterios para evaluar la operación de un servicio de tecnología de información, en contraste con los requerimientos funcionales que especifican los comportamientos específicos. 
 
-      .tarjeta.colorfondo1.p-3(x="84%" y="73%" numero="+")
-        .h5.mb-2 Requerimientos interfaces externas
+      .tarjeta.colorfondo7.p-4(x="83.7%" y="73%" numero="+")
         p Describe las características y atributos de las interfaces con el usuario (GUI), interfaces con el hardware, interfaces con otros sistemas de las interfaces de comunicaciones.
 
-
-      .tarjeta.colorfondo1.p-3(x="98%" y="84%" numero="+")
-        .h5.mb-2 Reglas de negocio
+      .tarjeta.colorfondo8.p-4(x="97.8%" y="84.3%" numero="+")
         p Listado de reglas y principios que aplican a todo el conjunto de requerimientos de software contenidos en el documento. Un ejemplo es cuáles individuos o roles pueden desempeñar cierta función bajo ciertas circunstancias. 
 
-      .tarjeta.colorfondo1.p-3(x="84%" y="95%" numero="+")
-        .h5.mb-2 Requerimientos funcionales
+      .tarjeta.colorfondo9.p-4(x="83.7%" y="95.5%" numero="+")
         p En esta sección de la plantilla, se ilustra cómo organizar los requerimientos funcionales de software por funcionalidad de producto o sistema. Aquí se listan las funcionalidades para cada una y a su vez se listan los requerimientos funcionales. Los requerimientos funcionales también se pueden documentar en una matriz de trazabilidad de requerimientos.
 
 </template>
