@@ -253,17 +253,22 @@
         br
         br
         img.col-2.icon5(src='@/assets/template/iconcuadro.png') 
-        ul(style="list-style-type: square")
-          li Mapas de procesos.
-          br
-          li Diagramas de flujo de procesos.
-          br
-          li Diagrama de flujo funcional.
-          br
-          li Mapa de procesos de negocio.
-          br
-          li BPMN, modelado de procesos de negocio. 
-    br
+        ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right 
+            p Mapas de procesos.
+          li 
+            i.fas.fa-angle-right 
+            p Diagramas de flujo de procesos.
+          li 
+            i.fas.fa-angle-right 
+            p Diagrama de flujo funcional.
+          li 
+            i.fas.fa-angle-right 
+            p Mapa de procesos de negocio.
+          li 
+            i.fas.fa-angle-right 
+            p BPMN, modelado de procesos de negocio. 
     br
     h3.text2(data-aos="zoom-in") Se relacionan con otros diagramas populares, como: 
     br
@@ -318,12 +323,16 @@
     br
     img.icon4(src='@/assets/curso/imgtem207.jpg').col-4(data-aos="zoom-in-left")
     p.col-7.textizq5(data-aos="zoom-in-right") Se denomina así por su sigla en inglés <i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
-    ul(style="list-style-type: square").col-6.textizq4(data-aos="zoom-in-right")
-      li Eventos.
-      br
-      li Actividades.
-      br
-      li Compuertas (control de flujo).
+    ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color.col-6.textizq4
+      li 
+        i.fas.fa-angle-right 
+        p Eventos.
+      li 
+        i.fas.fa-angle-right 
+        p Actividades.
+      li 
+        i.fas.fa-angle-right 
+        p Compuertas (control de flujo).
     br
     p.col-12.text3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
 

@@ -230,14 +230,13 @@
     Separador
     br
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-    h2(data-aos="zoom-in") 1.1 Características de requerimientos
-    br
+      h2 1.1 Características de requerimientos
     p(data-aos="zoom-in") Los requerimientos deben cumplir con cierto tipo de características y criterios:
     br
     img.imgpos3(src='@/assets/curso/imgtem05.jpg')(data-aos="zoom-in-left")
     .row.mb-5(data-aos="zoom-in-right")
       .col-md-12.mb-5.mb-md-0
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-contenido.text-bold
           p.text-small(numero="1" titulo="Verificable").m-3
             ul(style="list-style-type: square")
               p El requisito debe tener una implementación precisa y comprobada, la prueba de consulta debe ser correcto o incorrecto.
@@ -279,7 +278,7 @@
     br
     p(data-aos="zoom-in") Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los <i>stakeholders</i> como se muestra en la siguiente imagen:
     br
-    img.col-10.imgpos4(src='@/assets/curso/imgtem06.jpg')(data-aos="zoom-in")
+    img.col-10.imgpos4(src='@/assets/curso/requerimientos.svg')(data-aos="zoom-in")
     br
     p(data-aos="zoom-in") Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
     br
@@ -328,11 +327,13 @@
           br
           p Incluye:
           br
-          ul(style="list-style-type: square").lup2
-            li Las funciones que actúan directamente con el usuario.
-            br
-            li Las pantallas y opciones que permiten utilizar la aplicación.
-        
+          ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
+              li 
+                i.fas.fa-angle-right 
+                p Las funciones que actúan directamente con el usuario.
+              li 
+                i.fas.fa-angle-right 
+                p Las pantallas y opciones que permiten utilizar la aplicación.        
         .col-md-8
           figure
             img(src='@/assets/curso/imgtem10.jpg')
@@ -343,14 +344,20 @@
           br
           p Por ejemplo, pedir un taxi:
           br
-          ul(style="list-style-type: square").lup2
-            li Seleccionar el punto de partida y punto de llegada.
-            br
-            li Seleccionar el tipo de vehículo, forma de pago.
-            br
-            li Confirmar el número de teléfono.
-            br
-            li Completar el viaje.
+          ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color.lup2
+            li 
+              i.fas.fa-angle-right 
+              p Seleccionar el punto de partida y punto de llegada.
+            li 
+              i.fas.fa-angle-right 
+              p Seleccionar el tipo de vehículo, forma de pago.
+            li 
+              i.fas.fa-angle-right 
+              p Confirmar el número de teléfono.
+            li 
+              i.fas.fa-angle-right 
+              p Completar el viaje.
+              
           p En este tipo de aplicaciones, se puede también calificar a los conductores y compartir los viajes, cada uno de estos sería un requerimiento funcional.
 
         .col-md-8
@@ -392,8 +399,7 @@
     separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-    h2(data-aos="zoom-in") 1.2 Documentación de requerimientos
-
+      h2 1.2 Documentación de requerimientos
     img.imgpos9(src='@/assets/curso/imgtem13.jpg')(data-aos="zoom-in-right")
     br
     span.text-bold(data-aos="zoom-in-left") El documento de requerimientos es el lugar donde se describen las características y requisitos de un software, programa, conjunto de programas o productos.
