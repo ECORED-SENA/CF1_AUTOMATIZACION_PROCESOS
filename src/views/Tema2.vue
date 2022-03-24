@@ -134,12 +134,16 @@
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
       h2 2.2 Modelado de procesos
     img.col-3.imgpos10(src='@/assets/curso/imgtem204.jpg')(data-aos="zoom-in-left") 
-    ul(style="list-style-type: square").col-7(data-aos="zoom-in-right")
-      li El gran objetivo del modelado es optimizar los procesos.
-      br
-      li Partir los procesos en pedazos para permitir estudiarlo, está conectado con las pruebas a realizar percibiendo las posibilidades de cada proceso.
-      br
-      li Permite conocer a fondo las pruebas y resultados, creando un buen comienzo para la optimización de procesos, identificando los obstáculos y puntos nulos. 
+    ul.lista-ul(style="list-style-type: square").col-7(data-aos="zoom-in-right").lista-ul.lista-ul--color
+      li 
+        i.fas.fa-angle-right 
+        p El gran objetivo del modelado es optimizar los procesos.
+      li 
+        i.fas.fa-angle-right 
+        p Partir los procesos en pedazos para permitir estudiarlo, está conectado con las pruebas a realizar percibiendo las posibilidades de cada proceso.
+      li 
+        i.fas.fa-angle-right 
+        p Permite conocer a fondo las pruebas y resultados, creando un buen comienzo para la optimización de procesos, identificando los obstáculos y puntos nulos. 
     br
     br
     br
@@ -176,15 +180,20 @@
       h3.text Técnicas de modelado de procesos
     br
     p(data-aos="zoom-in") Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un software fiable para realizar el modelado de los procesos.
-      ul(style="list-style-type: square").col-6.textizq2(data-aos="zoom-in-left")
-        li Recopilar información a través de entrevistas individuales.
-        br
-        li Sesiones facilitadoras para recopilar datos en reuniones con talento humano de diferentes áreas o dependiendo del objetivo.
-        br
-        li Enfoque de arriba hacia abajo analizando el proceso del todo en las partes.
-        br
-        li Enfoque de abajo hacia arriba analizando el proceso del nivel de flujo de trabajo, es más lento, pero se encuentran mayores detalles.
-      img.icon3(src='@/assets/curso/imgtem205.jpg').col-2(data-aos="zoom-in-right")
+      ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color.col-7.textizq2(data-aos="zoom-in-left")
+        li 
+          i.fas.fa-angle-right 
+          p Recopilar información a través de entrevistas individuales.
+        li 
+          i.fas.fa-angle-right 
+          p Sesiones facilitadoras para recopilar datos en reuniones con talento humano de diferentes áreas o dependiendo del objetivo.
+        li 
+          i.fas.fa-angle-right 
+          p Enfoque de arriba hacia abajo analizando el proceso del todo en las partes.
+        li 
+          i.fas.fa-angle-right 
+          p Enfoque de abajo hacia arriba analizando el proceso del nivel de flujo de trabajo, es más lento, pero se encuentran mayores detalles.
+      img.icon3(src='@/assets/curso/imgtem205.jpg').col-3(data-aos="zoom-in-right")
     br
     .cajon.cajontitle6.col-3(data-aos="zoom-in")
       h3.text Diagrama de flujo
