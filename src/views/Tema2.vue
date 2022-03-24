@@ -149,31 +149,24 @@
     br
     br
     h4.text(data-aos="zoom-in") Entre los diagramas de comportamiento se tienen:
-    br
-    br
-    .tarjeta.fond3.col-2(data-aos="flip-left")
+    .col-12
       .row.justify-content-center
-        img.icon2(src='@/assets/curso/guia.png' alt='AvatarTop')
-      h2.text Guías:
-      p.margentext4 se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
-
-    .tarjeta.fond3.col-2(data-aos="flip-left")
-      .row.justify-content-center
-        img.icon2(src='@/assets/curso/car.png' alt='AvatarTop')
-      h2.text Resultados:
-      p.margentext4 surge con la transformación de los insumos.
-
-    .tarjeta.fond3.col-2(data-aos="flip-left")
-      .row.justify-content-center
-        img.icon2(src='@/assets/curso/manofactura.png' alt='AvatarTop')
-      h2.text Facilitadores: 
-      p.margentext4 se utilizan en el proceso de transformación de insumos a resultados.
-      
-    .tarjeta.fond3.col-2(data-aos="flip-left")
-      .row.justify-content-center
-        img.icon2(src='@/assets/curso/insumo.png' alt='AvatarTop')
-      h2.text Insumos:
-      p.margentext4 todo lo que pasa a través de un proceso es un insumo. 
+        .col-2.lg-3.p-0.m-4.tarjeta-apilado.curuba
+          img(src='@/assets/curso/tar3.png', alt='', class='img-fluid')
+          h3.text-center.m-3 Insumos
+          p.m-4 Todo lo que pasa a través de un proceso es un insumo.
+        .col-2.lg-3.p-0.m-4.tarjeta-apilado.verde
+          img(src='@/assets/curso/tar4.png', alt='', class='img-fluid')
+          h3.text-center.m-3 Resultados
+          p.m-4 Surge con la transformación de los insumos. 
+        .col-2.lg-3.p-0.m-4.tarjeta-apilado.curuba
+          img(src='@/assets/curso/tar5.png', alt='', class='img-fluid')
+          h3.text-center.m-3 Facilitadores
+          p.m-4 Se utilizan en el proceso de transformación de insumos a resultados.
+        .col-2.lg-3.p-0.m-4.tarjeta-apilado.verde
+          img(src='@/assets/curso/tar6.png', alt='', class='img-fluid')
+          h3.text-center.m-3 Guías
+          p.m-4 se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
     br
     br
     .cajon.cajontitle5.col-3(data-aos="zoom-in")
