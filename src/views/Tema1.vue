@@ -19,21 +19,22 @@
     .cajon-b.colorcajon2.col-5(data-aos="zoom-out")  
       p.align-center.margentext El propósito principal de los requerimientos es asegurar la satisfacción de las expectativas de los clientes y sus interesados (<i> stakeholders </i>), internos y externos, relacionando de manera eficiente, los vínculos que esperan los clientes y usuarios, y lo que el grupo del proyecto tiende a desarrollar    
       p.posctext Ahora bien, los requerimientos son adaptados a todo tipo de proyectos, así, se trata de garantizar el óptimo funcionamiento de los procesos, sirviendo de referencia para el aseguramiento y control de los cambios que se pueden presentar en el proyecto (trazabilidad). 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
     .cajon.cajontitle2.col-2(data-aos="zoom-in-right")
       h3.text Control de cambios
     <br>
@@ -43,8 +44,8 @@
     <br>
     <br>
     <br>
+    br
     h3(data-aos="zoom-out-right") Técnicas en el levantamiento de requerimientos
-    <br>
     <br>
     p.col12(data-aos="zoom-out-right") La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados (); también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de software:
     <br>
@@ -52,7 +53,7 @@
     img.imgpos3(src='@/assets/curso/imgtem04.jpg')(data-aos="fade-up")
     .row.mb-5(data-aos="fade-up")
       .col-md-12.mb-4.mb-md-0
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-contenido.text-bold
           p.text-small(numero="1" titulo="Análisis de documentación").m-3
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
@@ -216,7 +217,7 @@
     br
     p(data-aos="zoom-in") Las restricciones siempre serán necesarias para lograr manipular o editar el manejo de la aplicación de manera controlada, efectiva y funcional, para que se lleven a cabo los procesos de manera eficaz en la operación de las tareas.
 
-    .cajon.cajontitle2.col-2(data-aos="zoom-in")
+    .cajon.cajontitle21.col-2(data-aos="zoom-in")
       h3.text(data-aos="zoom-in") Restricciones
     br
     br
@@ -387,6 +388,8 @@
       p 
         span.text-bold Los requerimientos no funcionales no se pueden ver ni tocar
         span , porque están “detrás” de la aplicación, para que funcione de manera rápida, segura y en cualquier momento. 
+
+    separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
     h2(data-aos="zoom-in") 1.2 Documentación de requerimientos

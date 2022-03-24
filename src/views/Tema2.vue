@@ -109,6 +109,8 @@
           figure
             img(src='@/assets/template/Grupo4.jpg', alt='Texto que describa la imagen')
 
+    separador
+
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 2.1 Procesos organizacionales
     img.col-3.imgpos10(src='@/assets/curso/imgtem203.jpg')(data-aos="zoom-in-left")
@@ -130,7 +132,8 @@
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF001_Anexo2_Plantilla_requerimientos_de_software.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
-    br
+    separador
+    
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
       h2 2.2 Modelado de procesos
     img.col-3.imgpos10(src='@/assets/curso/imgtem204.jpg')(data-aos="zoom-in-left") 
