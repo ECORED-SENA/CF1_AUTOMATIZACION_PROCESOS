@@ -8,67 +8,69 @@
         span.text-white 2
       h1 Notaciones de requerimientos
 
-    img.col-3.imgpos10(src='@/assets/curso/imgtem201.jpg')(data-aos="zoom-in-left") 
-    p.col-8(data-aos="zoom-in-right") La notación textual de los requerimientos es necesaria para la relación de la comunicación efectiva entre clientes, usuarios e interesados, deben lograr interpretar lo que queda plasmado en figuras.<br/><br/>La notación gráfica que se utiliza en la especificación de los requerimientos por excelencia es UML (Lenguaje de Modelado Unificado), específicamente en los diagramas de casos de uso, estados y actividades, que describen en detalles los usos del sistema.<br/><br/>Como se muestra a continuación, para los diagramas UML existen diferentes versiones aprobadas por la ISO, cuentan con diferentes tipos, clasificándolos según su estructura o comportamiento:
+    img.imgpos10(src='@/assets/curso/imgtem201.jpg')(data-aos="zoom-in-left") 
+    p.col-7.martx(data-aos="zoom-in-right") La notación textual de los requerimientos es necesaria para la relación de la comunicación efectiva entre clientes, usuarios e interesados, deben lograr interpretar lo que queda plasmado en figuras.<br/><br/>La notación gráfica que se utiliza en la especificación de los requerimientos por excelencia es UML (Lenguaje de Modelado Unificado), específicamente en los diagramas de casos de uso, estados y actividades, que describen en detalles los usos del sistema.<br/><br/>Como se muestra a continuación, para los diagramas UML existen diferentes versiones aprobadas por la ISO, cuentan con diferentes tipos, clasificándolos según su estructura o comportamiento:
     br
     br
-    img.col-8.centerimg(src='@/assets/curso/imgtem202.jpg')(data-aos="zoom-in")
+    img.col-8.centerimg(src='@/assets/curso/imgtem202.svg')(data-aos="zoom-in")
     br
     br
     h4.text(data-aos="zoom-in") Entre los diagramas de estructura se encuentran:
     br
+    br
+    br
     SlyderE(indicadores="derecha")(data-aos="zoom-in-left") 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0
           h3 Diagrama de clases 
           p Trazan la estructura de un sistema concreto al modelar sus clases, atributos, operaciones y relaciones entre objetos.
       
-        .col-md-6
+        .col-md-8
           figure
-            img(src='@/assets/template/esquema1.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/esquema1.svg', alt='Texto que describa la imagen')
 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0
           h3 Diagrama de estructura compuesta 
           p Brinda una vista general lógica en general o en parte de un software. Describe el interior de un clasificador estructurado determinado definiendo sus clases de configuración, interfaces, paquetes y relaciones entre ellos.
        
-        .col-md-6
+        .col-md-8
           figure
-            img(src='@/assets/template/esquema2.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/esquema2.svg', alt='Texto que describa la imagen')
 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0
           h3 Diagrama de componentes 
           p Representan las relaciones entre los componentes individuales del sistema por medio de una vista de diseño estática. Ilustran modelado de aspecto lógico y físico.<br><br/> Muestra las organizaciones y dependencias entre componentes y artefactos (Digital Guide, 2020)
 
-        .col-md-6
+        .col-md-8
           figure
-            img(src='@/assets/template/esquema3.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/esquema3.svg', alt='Texto que describa la imagen')
 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0
           h3 Diagrama de despliegue
           p Llamado también diagrama de implementación, ubicado dentro de los diagramas estructurales porque describe aspectos del sistema (Lucidchart, 2021b).
 
-        .col-md-6
+        .col-md-8
           figure
-            img(src='@/assets/template/esquema4.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/esquema4.svg', alt='Texto que describa la imagen')
 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0
           h3 Diagrama de objeto
           p Representa una instancia específica de un diagrama de clases en un momento determinado en el tiempo, es muy similar al diagrama de clases. Se enfoca en los atributos de un conjunto de objetos y la relación entre estos objetos.<br/><br/>Los objetos se conectan por medio de una línea que es nombrada, cuando hay una relación entre objetos o clases, esta debe de mostrarse en ambos diagramas.
-        .col-md-6
+        .col-md-8
           figure
-            img(src='@/assets/template/esquema5.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/esquema5.svg', alt='Texto que describa la imagen')
 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0
           h3 Diagrama de paquetes
           p Se emplean para mostrar la organización y disposición de diversos elementos de un modelo en forma de paquetes. El paquete es la agrupación de elementos UML relacionados, como diagramas, clases, documentos, e incluyendo otros paquetes.
-        .col-md-6
+        .col-md-8
           figure
-            img(src='@/assets/template/esquema6.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/esquema6.svg', alt='Texto que describa la imagen')
 
     br
     h4.text(data-aos="zoom-in") Entre los diagramas de comportamiento se tienen:
@@ -82,7 +84,7 @@
 
         .col-md-8
           figure
-            img(src='@/assets/template/Grupo1.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/Grupo1.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -91,7 +93,7 @@
 
         .col-md-8
           figure
-            img(src='@/assets/template/Grupo2.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/Grupo2.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -99,7 +101,7 @@
           p Describen o especifican lo que hace el sistema desde un punto de vista externo. Plantea en su diagrama escenarios lo que sucede cuando alguien interactúa con el sistema, suministrando un resumen de una determinada tarea u objetivo.<br/><br/>Ejemplo de un caso de uso de un sistema bancario.
         .col-md-8
           figure
-            img(src='@/assets/template/Grupo3.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/Grupo3.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -107,7 +109,7 @@
           p Es también conocido como diagrama de estados, es un tipo de diagrama de comportamiento en el UML, que muestra transiciones entre diversos objetos.<br/><br/>Ejemplo de diagrama de estado de un aeropuerto.
         .col-md-8
           figure
-            img(src='@/assets/template/Grupo4.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/Grupo4.svg', alt='Texto que describa la imagen')
 
     separador
 
@@ -136,8 +138,8 @@
     
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
       h2 2.2 Modelado de procesos
-    img.col-3.imgpos10(src='@/assets/curso/imgtem204.jpg')(data-aos="zoom-in-left") 
-    ul.lista-ul(style="list-style-type: square").col-7(data-aos="zoom-in-right").lista-ul.lista-ul--color
+    img.col-3.imgpos101(src='@/assets/curso/imgtem204.jpg')(data-aos="zoom-in-left") 
+    ul(style="list-style-type: square").col-6(data-aos="zoom-in-right").lista-ul.lista-ul--color
       li 
         i.fas.fa-angle-right 
         p El gran objetivo del modelado es optimizar los procesos.
@@ -151,7 +153,9 @@
     br
     br
     br
+    br
     h4.text(data-aos="zoom-in") Entre los diagramas de comportamiento se tienen:
+    br
     .col-12
       .row.justify-content-center
         .col-2.lg-3.p-0.m-4.tarjeta-apilado.curuba
@@ -280,7 +284,7 @@
 
         .col-md-8
           figure
-            img(src='@/assets/template/Diagrama1.jpg')
+            img(src='@/assets/template/Diagrama1.svg')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -289,7 +293,7 @@
 
         .col-md-8
           figure
-            img(src='@/assets/template/Diagrama2.jpg')
+            img(src='@/assets/template/Diagrama2.svg')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -298,7 +302,7 @@
 
         .col-md-8
           figure
-            img(src='@/assets/template/Diagrama3.jpg')
+            img(src='@/assets/template/Diagrama3.svg')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -307,7 +311,7 @@
 
         .col-md-8
           figure
-            img(src='@/assets/template/Diagrama4.jpg')
+            img(src='@/assets/template/Diagrama4.svg')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -316,7 +320,7 @@
         
         .col-md-8
           figure
-            img(src='@/assets/template/Diagrama5.jpg')
+            img(src='@/assets/template/Diagrama5.svg')
     br
     .cajon.cajontitle6.col-3(data-aos="zoom-in")
       h3.text El modelo BPMN
@@ -364,7 +368,9 @@
     br
     p.col-12.text4(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
     br
-    img(src='@/assets/curso/modelo.jpg').col-12(data-aos="zoom-in")
+    br
+    br
+    img(src='@/assets/curso/modelo.svg').col-12(data-aos="zoom-in")
 
     .tarjeta.coloamarillo.p-3.mb-5.col-10(data-aos="zoom-in")
       .row.justify-content-around.align-items-center

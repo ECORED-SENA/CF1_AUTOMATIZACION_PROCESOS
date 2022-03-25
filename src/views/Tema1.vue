@@ -357,7 +357,7 @@
             li 
               i.fas.fa-angle-right 
               p Completar el viaje.
-              
+
           p En este tipo de aplicaciones, se puede también calificar a los conductores y compartir los viajes, cada uno de estos sería un requerimiento funcional.
 
         .col-md-8
@@ -410,13 +410,13 @@
     br
     br
     br
-    .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
+    .tarjeta.colorblue.p-3.mb-3(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-2.col-sm-1.col-lg-1
           img(src="@/assets/componentes/icon1.png")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-2.mb-sm-0
               h3.mb-1 Llamado a la acción
               p.text-small Se comparte una plantilla para la descripción de los requerimientos. Esta plantilla sigue los requerimientos establecidos en el estándar IEEE 830, (Instituto de Ingenieros Eléctricos y Electrónicos), es la sociedad técnica profesional más grande y prestigiosa del mundo. Del mismo modo, se menciona que la especificación de requisitos debe contener la descripción de las funcionalidades de la aplicación, relacionamiento con los sistemas externos y requerimientos no funcionales, de rendimiento, disponibilidad, tiempos de respuesta y mantenibilidad. 
             .col-sm-auto
