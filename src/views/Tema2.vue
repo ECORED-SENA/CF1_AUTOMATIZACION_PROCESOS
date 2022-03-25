@@ -114,7 +114,7 @@
     separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-      h2 2.1 Procesos organizacionales
+      #t_2_1.h2 2.1 Procesos organizacionales
     img.col-3.imgpos10(src='@/assets/curso/imgtem203.jpg')(data-aos="zoom-in-left")
     p.col-7(data-aos="zoom-in-right") Hacen referencia al conjunto de pasos para llevar a cabo en una organización, junto con sus miembros, con el fin de lograr las metas propuestas y los objetivos.<br/><br/>Se ha determinado, a través del tiempo e investigaciones, que lo único constante es el cambio en las organizaciones.<br/><br/> Del mismo modo, el avance tecnológico que se globaliza en los últimos tiempos obliga a las empresas a adoptar nuevas herramientas tecnológicas de gestión y capacitación de los empleados en el uso eficiente de ellas, como única alternativa para sobrevivir y mantenerse en el mercado. A continuación, se presenta algunos tipos de procesos dentro de las organizaciones:
     br
@@ -137,7 +137,7 @@
     separador
     
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
-      h2 2.2 Modelado de procesos
+      #t_2_2.h2 2.2 Modelado de procesos
     img.col-3.imgpos101(src='@/assets/curso/imgtem204.jpg')(data-aos="zoom-in-left") 
     ul(style="list-style-type: square").col-6(data-aos="zoom-in-right").lista-ul.lista-ul--color
       li 

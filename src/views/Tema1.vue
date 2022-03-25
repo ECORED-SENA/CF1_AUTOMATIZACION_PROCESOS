@@ -230,7 +230,7 @@
     Separador
     br
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-      h2 1.1 Características de requerimientos
+      #t_1_1.h2 1.1 Características de requerimientos
     p(data-aos="zoom-in") Los requerimientos deben cumplir con cierto tipo de características y criterios:
     br
     img.imgpos3(src='@/assets/curso/imgtem05.jpg')(data-aos="zoom-in-left")
@@ -399,7 +399,7 @@
     separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-      h2 1.2 Documentación de requerimientos
+      #t_1_2.h2 1.2 Documentación de requerimientos
     img.imgpos9(src='@/assets/curso/imgtem13.jpg')(data-aos="zoom-in-right")
     br
     span.text-bold(data-aos="zoom-in-left") El documento de requerimientos es el lugar donde se describen las características y requisitos de un software, programa, conjunto de programas o productos.
