@@ -161,19 +161,19 @@
         .col-2.lg-3.p-0.m-4.tarjeta-apilado.curuba
           img(src='@/assets/curso/tar3.png', alt='', class='img-fluid')
           h3.text-center.m-3 Insumos
-          p.m-4 Todo lo que pasa a través de un proceso es un insumo.
+          p.m-4.text-center Todo lo que pasa a través de un proceso es un insumo.
         .col-2.lg-3.p-0.m-4.tarjeta-apilado.verde
           img(src='@/assets/curso/tar4.png', alt='', class='img-fluid')
           h3.text-center.m-3 Resultados
-          p.m-4 Surge con la transformación de los insumos. 
+          p.m-4.text-center Surge con la transformación de los insumos. 
         .col-2.lg-3.p-0.m-4.tarjeta-apilado.curuba
           img(src='@/assets/curso/tar5.png', alt='', class='img-fluid')
           h3.text-center.m-3 Facilitadores
-          p.m-4 Se utilizan en el proceso de transformación de insumos a resultados.
+          p.m-4.text-center Se utilizan en el proceso de transformación de insumos a resultados.
         .col-2.lg-3.p-0.m-4.tarjeta-apilado.verde
           img(src='@/assets/curso/tar6.png', alt='', class='img-fluid')
           h3.text-center.m-3 Guías
-          p.m-4 se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
+          p.m-4.text-center se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
     br
     br
     .cajon.cajontitle5.col-3(data-aos="zoom-in")
@@ -207,7 +207,7 @@
       h3.col-9.text Las figuras utilizadas en un diagrama de flujo son: 
     br
     br
-    PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="zoom-in")
+    PasosA.color-acento-contenido.mb-6(tipo="n")(data-aos="zoom-in").pasos-a__linea__esquina__linea
       .row
         .col-8.esp2
           h3 Inicio / Final
@@ -346,11 +346,11 @@
         .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.curuba
           img(src='@/assets/curso/tar7.png', alt='', class='img-fluid')
           h3.text-center.m-3 Eventos
-          p.m-4 Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
+          p.m-4.text-center Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
         .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
           img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
           h3.text-center.m-3 Actividades
-          ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4
+          ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4.text-center
             li 
               i.fas.fa-angle-right  
               p Representan el trabajo realizado dentro de una organización.
@@ -364,7 +364,7 @@
         .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
           img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
           h3.text-center.m-3 Compuertas
-          p.m-4 Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
+          p.m-4.text-center Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
     br
     p.col-12.text4(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
     br
