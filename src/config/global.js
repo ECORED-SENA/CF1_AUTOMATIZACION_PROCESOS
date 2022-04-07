@@ -65,7 +65,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -272,28 +272,6 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Luis Eyder Ortiz',
-        cargo: 'Experto Temático',
-        centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
-      },
-      {
-        nombre: 'Gustavo Santis Mancipe',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro de Diseño y Metrología Regional distrito Capital',
-      },
-      {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Revisora Metodológica y Pedagógica',
-        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología ',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro:
-          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
       },
     ],
     desarrolloProducto: [
