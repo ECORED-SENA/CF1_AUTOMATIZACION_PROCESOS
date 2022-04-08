@@ -224,74 +224,76 @@
         h3.col-9.text Las figuras utilizadas en un diagrama de flujo son: 
     br
     br
-    .row
-      PasosA.color-acento-contenido.mb-6(tipo="n")(data-aos="zoom-in").pasos-a__linea__esquina__linea
+    .row.col-lg-9.caj
+      PasosA.color-acento-contenido(tipo="n")(data-aos="zoom-in").pasos-a__linea__esquina__linea
         .row
-          .col-8.esp2
+          .col-8
             h3 Inicio / Final
             p Representa el inicio y el final de un proceso.
-          .col-4.esp1
+          .col-4
             figure
-              img(src='@/assets/template/1.png')
+              img.m-2(src='@/assets/template/1.png')
 
         .row
-          .col-4.esp4
+          .col-4
             figure
-              img(src='@/assets/template/2.png')
+              img.m-2(src='@/assets/template/2.png')
           
-          .col-7.esp3
+          .col-8
             h3 Línea de flujo 
             p Indica el orden de la ejecución de las operaciones. Las flechas indican la siguiente instrucción.
 
         .row
-          .col-6.esp5
+          .col-8
             h3 Entrada / Salida
             p Representa la lectura de datos en la entrada y la impresión de datos en la salida.
 
-          .col-4.esp4
+          .col-4
             figure
-              img(src='@/assets/template/3.png')
+              img.m-2(src='@/assets/template/3.png')
 
         .row
-          .col-4.esp6
+          .col-4
             figure
-              img(src='@/assets/template/4.png')
+              img.m-2(src='@/assets/template/4.png')
           
-          .col-8.esp7
+          .col-8
             h3 Proceso
             p Representa cualquier tipo de operación.
 
         .row
-          .col-8.esp9
+          .col-8
             h3 Decisión
             p Permite analizar una situación, con base en los valores verdadero y falso.
 
-          .col-4.esp8
+          .col-4
             figure
-              img(src='@/assets/template/5.png')
+              img.m-2(src='@/assets/template/5.png')
     br
     .row.justify-content-center
-      .col-md-8.cajon-a.color-primario(style='background-color: #ECF7FF')(data-aos="zoom-in")
-        p.col-10.text2 Los diagramas de flujo a veces los denominan con nombres más especializados, como: 
-          br
-          br
-          img.col-3.icon5(src='@/assets/template/iconcuadro.png') 
-          ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
-            li 
-              i.fas.fa-angle-right 
-              p Mapas de procesos.
-            li 
-              i.fas.fa-angle-right 
-              p Diagramas de flujo de procesos.
-            li 
-              i.fas.fa-angle-right 
-              p Diagrama de flujo funcional.
-            li 
-              i.fas.fa-angle-right 
-              p Mapa de procesos de negocio.
-            li 
-              i.fas.fa-angle-right 
-              p BPMN, modelado de procesos de negocio. 
+      .col-md-7.cajon-a.color-primario(style='background-color: #ECF7FF')(data-aos="zoom-in").p-4
+        .col-12
+          p Los diagramas de flujo a veces los denominan con nombres más especializados, como:
+        .col-12
+          .col-3
+            img.icon5(src='@/assets/template/iconcuadro.png') 
+          .col-12
+            ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
+              li 
+                i.fas.fa-angle-right 
+                p Mapas de procesos.
+              li 
+                i.fas.fa-angle-right 
+                p Diagramas de flujo de procesos.
+              li 
+                i.fas.fa-angle-right 
+                p Diagrama de flujo funcional.
+              li 
+                i.fas.fa-angle-right 
+                p Mapa de procesos de negocio.
+              li 
+                i.fas.fa-angle-right 
+                p BPMN, modelado de procesos de negocio. 
     br
     .row
       h3.text2(data-aos="zoom-in") Se relacionan con otros diagramas populares, como: 
@@ -347,61 +349,69 @@
       .cajon.cajontitle6.col-3(data-aos="zoom-in")
         h3.text El modelo BPMN
     br
-    img.icon4(src='@/assets/curso/imgtem207.jpg').col-4(data-aos="zoom-in-left")
-    p.col-7.textizq5(data-aos="zoom-in-right") Se denomina así por su sigla en inglés <i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
-    ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color.col-6.textizq4
-      li 
-        i.fas.fa-angle-right 
-        p Eventos.
-      li 
-        i.fas.fa-angle-right 
-        p Actividades.
-      li 
-        i.fas.fa-angle-right 
-        p Compuertas (control de flujo).
+    .row.align-items-center.mb-3
+      .col-lg-7
+        p.m-2 Se denomina así por su sigla en inglés <i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
+        ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right 
+            p Eventos.
+          li 
+            i.fas.fa-angle-right 
+            p Actividades.
+          li 
+            i.fas.fa-angle-right 
+            p Compuertas (control de flujo).
+      
+      .col-lg-4
+        .imagen.m-2        
+          img(src='@/assets/curso/imgtem207.jpg', style="width: 420px")
     br
-    p.col-12.text3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
-
+    .row
+      p.col-12.text3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
     br 
-    .col-12
-      .row.justify-content-center
-        .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.curuba
-          img(src='@/assets/curso/tar7.png', alt='', class='img-fluid')
-          h3.text-center.m-3 Eventos
-          p.m-4.text-center Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
-        .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
-          img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
-          h3.text-center.m-3 Actividades
-          ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4.text-center
-            li 
-              i.fas.fa-angle-right  
-              p Representan el trabajo realizado dentro de una organización.
-            li 
-              i.fas.fa-angle-right 
-              p Consumen recursos.
-            li 
-              i.fas.fa-angle-right    
-              p Pueden ser simples o compuestas.
- 
-        .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
-          img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
-          h3.text-center.m-3 Compuertas
-          p.m-4.text-center Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
+    .row
+      .col-12
+        .row.justify-content-center
+          .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.curuba
+            img(src='@/assets/curso/tar7.png', alt='', class='img-fluid')
+            h3.text-center.m-3 Eventos
+            p.m-4.text-center Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
+          .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
+            img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
+            h3.text-center.m-3 Actividades
+            ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4.text-center
+              li 
+                i.fas.fa-angle-right  
+                p Representan el trabajo realizado dentro de una organización.
+              li 
+                i.fas.fa-angle-right 
+                p Consumen recursos.
+              li 
+                i.fas.fa-angle-right    
+                p Pueden ser simples o compuestas.
+  
+          .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
+            img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
+            h3.text-center.m-3 Compuertas
+            p.m-4.text-center Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
     br
-    p.col-12.text4(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
+    .row
+      p.col-12.text4(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
     br
+    .row
+      .col-md-12
+        img(src='@/assets/curso/modelo.svg')(data-aos="zoom-in")
     br
-    br
-    img(src='@/assets/curso/modelo.svg').col-12(data-aos="zoom-in")
-
-    .tarjeta.coloamarillo.p-3.mb-5.col-10(data-aos="zoom-in")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/video.png")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Para mayor comprensión de los diagramas BPMN y aprender a hacer uno se invita al aprendiz a ver el Video ayuda para hacer un diagrama BPMN ubicado en la sección de material complementario.
+    .row
+      .tarjeta.coloamarillo.p-3.mb-5.col-10(data-aos="zoom-in")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/componentes/video.png")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.text-small Para mayor comprensión de los diagramas BPMN y aprender a hacer uno se invita al aprendiz a ver el Video ayuda para hacer un diagrama BPMN ubicado en la sección de material complementario.
 
 
 </template>
