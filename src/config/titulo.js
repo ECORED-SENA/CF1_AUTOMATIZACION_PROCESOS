@@ -1,1 +1,1 @@
-module.exports = 'CF1_PROCESOS_DE_AUTOMATIZACIÓN'
+module.exports = 'Automatización de Procesos para la Eficiencia Organizacional'
