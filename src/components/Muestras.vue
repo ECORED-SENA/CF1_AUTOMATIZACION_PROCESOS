@@ -611,13 +611,6 @@ div
 
   h3 Imagen zoom
 
-  .position-relative(@mouseover="indicadorImagenZoom = false")
-    Zoom(
-      lente="200" 
-      :baja-resolucion="require('@/assets/curso/baja.jpeg')" 
-      :alta-resolucion="require('@/assets/curso/alta.jpeg')"
-    )
-    .indicador--hover(v-if="indicadorImagenZoom")
   Separador
 
   #video.titulo-segundo.color-acento-botones
@@ -1981,79 +1974,14 @@ div
 
   h3 Tarjetas flip
 
-  .row.mb-5
-    .col-sm-6.col-xl-3.mb-4.mb-xl-0
-      .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-        .indicador--hover(v-if="indicadorTarjetaFlip")
-        .tarjeta-flip__contenedor
-          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-          .tarjeta-flip__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, 
 
-    .col-sm-6.col-xl-3.mb-4.mb-xl-0
-      .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-        .tarjeta-flip__contenedor
-          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-          .tarjeta-flip__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    .col-sm-6.col-xl-3.mb-4.mb-sm-0
-      .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
-        .tarjeta-flip__contenedor
-          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-          .tarjeta-flip__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    .col-sm-6.col-xl-3
-      .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
-        .tarjeta-flip__contenedor
-          .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-          .tarjeta-flip__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
 
   h3 Tarjetas slide
 
   //- .tarjeta-slide debe ir acompañado de una de una de estas clases => 
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
   //- .arriba, .abajo, .derecha, .izquierda para controlar la animacion
-  .row.mb-5
-    .col-sm-6.col-xl-3.mb-4.mb-xl-0
-      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, 
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-
-    .col-sm-6.col-xl-3.mb-4.mb-xl-0
-      .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    .col-sm-6.col-xl-3.mb-4.mb-sm-0
-      .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    .col-sm-6.col-xl-3
-      .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            h1 John Doe
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
+ 
   h3 Tarjetas Tabla
   .row.mb-5
     .col-md-6.col-lg.tarjeta--tabla.p-4
@@ -2130,33 +2058,6 @@ div
         p.text-center 
           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-  
-  h3 Tarjeta Avatar Slide
-  .row
-    .col-lg-4.mb-4
-      .tarjeta.tarjeta-avatar-slide.color-acento-contenido.p-4.h-100
-        .tarjeta-avatar-slide__img.mb-4
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
-        p 
-          b Dirigir a los miembros del equipo 
-          | para que las actividades se cumplan según lo establecido en el plan.
-    .col-lg-4.mb-4
-      .tarjeta.tarjeta-avatar-slide.color-acento-botones.p-4.h-100
-        .tarjeta-avatar-slide__img.mb-4
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
-        p 
-          b Dirigir a los miembros del equipo 
-          | para que las actividades se cumplan según lo establecido en el plan.
-    .col-lg-4.mb-4
-      .tarjeta.tarjeta-avatar-slide.color-primario.p-4.h-100
-        .tarjeta-avatar-slide__img.mb-4
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar-b.svg', alt='Texto que describa la imagen' )
-          .tarjeta-avatar-slide__img__item: img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen' )
-        p 
-          b Dirigir a los miembros del equipo 
-          | para que las actividades se cumplan según lo establecido en el plan.
 
   Separador
 

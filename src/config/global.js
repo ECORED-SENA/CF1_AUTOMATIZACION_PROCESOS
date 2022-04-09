@@ -120,18 +120,6 @@ export default {
     },
     {
       referencia:
-        'Cevallos K. (2021). Diagramas UML, ingeniería del software. Re',
-      link:
-        'https://ingsotfwarekarlacevallos.wordpress.com/category/diagramas-uml',
-    },
-    {
-      referencia:
-        'Colaboradores de los proyectos Wikimedia. (2021). Business Process Model and Notation.',
-      link:
-        'https://es.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&oldid=139122191',
-    },
-    {
-      referencia:
         'Control Goup. (2021). Qué es y cómo elaborar un mapa de procesos. Evaluando ERP.',
       link: 'https://www.evaluandoerp.com/elaborar-mapa-procesos',
     },

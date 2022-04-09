@@ -4,10 +4,9 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-      h1 Síntesis 
+      
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
 

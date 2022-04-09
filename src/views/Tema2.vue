@@ -42,7 +42,7 @@
         .row
           .col-md-4.mb-4.mb-md-0
             h3 Diagrama de componentes 
-            p Representan las relaciones entre los componentes individuales del sistema por medio de una vista de diseño estática. Ilustran modelado de aspecto lógico y físico.<br><br/> Muestra las organizaciones y dependencias entre componentes y artefactos (Digital Guide, 2020)
+            p Representan las relaciones entre los componentes individuales del sistema por medio de una vista de diseño estática. Ilustran modelado de aspecto lógico y físico.<br><br/> Muestra las organizaciones y dependencias entre componentes y artefactos (Digital Guide, 2020).
 
           .col-md-8
             figure
@@ -124,14 +124,14 @@
           img(src='@/assets/curso/imgtem203.jpg', style="width: 420px") 
     br
     .row
-      .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
+      .tarjeta.colorblue.p-4.mb-5(data-aos="zoom-in")(style='background-color: #F3F9FF')
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1
                 img(src="@/assets/componentes/icon1.png")
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h3.mb-1 Tipos de procesos dentro de las organizaciones
+                    h4.mb-3 Tipos de procesos dentro de las organizaciones
                     p.text-small A continuación se invita al aprendiz a consultar el siguiente recurso infográfico donde se presentan algunos tipos de procesos dentro de las organizaciones. 
                   .col-sm-auto
                     a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF001_Anexo2_Plantilla_requerimientos_de_software.pdf')" target="_blank")
@@ -161,26 +161,26 @@
     .row
       h4.text(data-aos="zoom-in") Las categorías de información para tener en cuenta para el modelado de procesos son:
     br
-    .row.m-0.justify-content-center
-      .col-md-2.tarjeta-apilado.curuba.p-0
-        img(src='@/assets/curso/tar3.png', alt='', class='img-fluid')
-        h3.text-center.m-2 Insumos
-        p.m-3.text-center Todo lo que pasa a través de un proceso es un insumo.
+    .row.col-12
+      .col-3.tarjeta-apilado.verde.p-0
+        img(src='@/assets/curso/tar3.png', alt='', class='img-fluid', style="width: 290px")
+        h4.text-center.m-2 Insumos
+        p.m-4.text-center Todo lo que pasa a través de un proceso es un insumo.
 
-      .col-md-2.tarjeta-apilado.verde.p-0
-          img(src='@/assets/curso/tar4.png', alt='', class='img-fluid')
-          h3.text-center.m-2 Resultados
-          p.m-3.text-center Surge con la transformación de los insumos. 
+      .col-3.tarjeta-apilado.verde.p-0
+        img(src='@/assets/curso/tar4.png', alt='', class='img-fluid', style="width: 290px")
+        h4.text-center.m-2 Resultados
+        p.m-4.text-center Surge con la transformación de los insumos. 
 
-      .col-md-2.tarjeta-apilado.curuba.p-0
-        img(src='@/assets/curso/tar5.png', alt='', class='img-fluid')
-        h3.text-center.m-2 Facilitadores
-        p.m-3.text-center Se utilizan en el proceso de transformación de insumos a resultados.
+      .col-3.tarjeta-apilado.verde.p-0
+        img(src='@/assets/curso/tar5.png', alt='', class='img-fluid', style="width: 290px")
+        h4.text-center.m-2 Facilitadores
+        p.m-4.text-center Se utilizan en el proceso de transformación de insumos a resultados.
 
-      .col-md-2.tarjeta-apilado.verde.p-0
-        img(src='@/assets/curso/tar6.png', alt='', class='img-fluid')
-        h3.text-center.m-2 Guías
-        p.m-3.text-center se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
+      .col-3.tarjeta-apilado.verde.p-0
+        img(src='@/assets/curso/tar6.png', alt='', class='img-fluid', style="width: 290px")
+        h4.text-center.m-2 Guías
+        p.m-4.text-center se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
       br
     .row
       .cajon.cajontitle5.col-3(data-aos="zoom-in")
@@ -372,12 +372,13 @@
     br 
     .row
       .col-12
-        .row.justify-content-center
-          .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.curuba
+        .row
+          .col-4.p-0.m-2.tarjeta-apilado.azul
             img(src='@/assets/curso/tar7.png', alt='', class='img-fluid')
             h3.text-center.m-3 Eventos
             p.m-4.text-center Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
-          .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
+
+          .col-4.p-0.m-2.tarjeta-apilado.azul
             img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
             h3.text-center.m-3 Actividades
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4.text-center
@@ -391,7 +392,7 @@
                 i.fas.fa-angle-right    
                 p Pueden ser simples o compuestas.
   
-          .col-5.col-lg-3.p-0.m-4.tarjeta-apilado.verde
+          .col-4.p-0.m-2.tarjeta-apilado.azul
             img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
             h3.text-center.m-3 Compuertas
             p.m-4.text-center Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
@@ -400,18 +401,16 @@
       p.col-12.text4(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
     br
     .row
-      .col-md-12
-        img(src='@/assets/curso/modelo.svg')(data-aos="zoom-in")
-    br
-    .row
-      .tarjeta.coloamarillo.p-3.mb-5.col-10(data-aos="zoom-in")
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/componentes/video.png")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Para mayor comprensión de los diagramas BPMN y aprender a hacer uno se invita al aprendiz a ver el Video ayuda para hacer un diagrama BPMN ubicado en la sección de material complementario.
+      img(src='@/assets/curso/modelo.svg')(data-aos="zoom-in")
+      .col-lg-10.m-t1-top.p-2.caj
+        .tarjeta.coloramarillo.p-4(data-aos="zoom-in")
+          .row.justify-content-around.align-items-center
+            .col-lg-1
+              img(src="@/assets/componentes/video.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small Para mayor comprensión de los diagramas BPMN y aprender a hacer uno se invita al aprendiz a ver el Video ayuda para hacer un diagrama BPMN ubicado en la sección de material complementario.
 
 
 </template>
