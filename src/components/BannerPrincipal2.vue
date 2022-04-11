@@ -45,6 +45,9 @@ export default {
   padding-left: 20px  !important
   z-index: 3
 
+.py-sm-5
+    padding-top: 6rem!important;
+    padding-bottom: 6rem!important;
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
