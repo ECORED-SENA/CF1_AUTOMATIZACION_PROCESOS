@@ -113,6 +113,11 @@ export default {
       link: 'https://www.aiteco.com/diagrama-de-flujo',
     },
     {
+      referencia: 'Cevallos K. (2021). Diagramas UML, ingeniería del software',
+      link:
+        'https://ingsotfwarekarlacevallos.wordpress.com/category/diagramas-uml',
+    },
+    {
       referencia:
         'Castillo, J. M. (2017). Tutorial BPMN con Visio. [Video]. YouTube.',
       link:

@@ -33,7 +33,7 @@
         .row
           .col-md-4.mb-4.mb-md-0
             h3 Diagrama de estructura compuesta 
-            p Brinda una vista general lógica en general o en parte de un software. Describe el interior de un clasificador estructurado determinado definiendo sus clases de configuración, interfaces, paquetes y relaciones entre ellos.
+            p Brinda una vista general lógica en general o en parte de un <i>software</i>. Describe el interior de un clasificador estructurado determinado definiendo sus clases de configuración, interfaces, paquetes y relaciones entre ellos.
         
           .col-md-8
             figure
@@ -123,7 +123,7 @@
         .imagen        
           img(src='@/assets/curso/imgtem203.jpg', style="width: 420px") 
     
-    .row.mb-5
+    .row.mb-4
       .tarjeta.colorblue.p-4.mb-5(data-aos="zoom-in")(style='background-color: #F3F9FF')
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1
@@ -134,7 +134,7 @@
                     h4.mb-3 Tipos de procesos dentro de las organizaciones
                     p.text-small A continuación se invita al aprendiz a consultar el siguiente recurso infográfico donde se presentan algunos tipos de procesos dentro de las organizaciones. 
                   .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF001_Anexo2_Plantilla_requerimientos_de_software.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Procesos_Organizacionales.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
     separador
@@ -163,35 +163,35 @@
     .row.col-12.mb-5
       .col-3.tarjeta-apilado.verde.p-0
         img(src='@/assets/curso/tar3.png', alt='', class='img-fluid', style="width: 290px")
-        h4.text-center.m-2 Insumos
+        h4.text-center.m-4 Insumos
         p.m-4.text-center Todo lo que pasa a través de un proceso es un insumo.
 
       .col-3.tarjeta-apilado.verde.p-0
         img(src='@/assets/curso/tar4.png', alt='', class='img-fluid', style="width: 290px")
-        h4.text-center.m-2 Resultados
+        h4.text-center.m-4 Resultados
         p.m-4.text-center Surge con la transformación de los insumos. 
 
       .col-3.tarjeta-apilado.verde.p-0
         img(src='@/assets/curso/tar5.png', alt='', class='img-fluid', style="width: 290px")
-        h4.text-center.m-2 Facilitadores
+        h4.text-center.m-4 Facilitadores
         p.m-4.text-center Se utilizan en el proceso de transformación de insumos a resultados.
 
       .col-3.tarjeta-apilado.verde.p-0
         img(src='@/assets/curso/tar6.png', alt='', class='img-fluid', style="width: 290px")
-        h4.text-center.m-2 Guías
+        h4.text-center.m-4 Guías
         p.m-4.text-center se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
       
     
     .cajon.cajontitle5.col-3.mb-4(data-aos="zoom-in")
       h3.text Técnicas de modelado de procesos
     
-    p.mb-5(data-aos="zoom-in") Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un software fiable para realizar el modelado de los procesos.
+    p.mb-5(data-aos="zoom-in") Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un <i>software</i> fiable para realizar el modelado de los procesos.
     
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-md-3
         .imagen.m-3       
           img(src='@/assets/curso/imgtem205.jpg', style="width: 280px") 
-      .col-md-8
+      .col-md-6
         ul(style="list-style-type: square").lista-ul.lista-ul--color
           li 
             i.fas.fa-angle-right 
@@ -344,17 +344,17 @@
   
     .row.align-items-center.mb-4
       .col-lg-7
-        p.m-2 Se denomina así por su sigla en inglés <i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
-        ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
+        p.mb-2 Se denomina así por su sigla en inglés <i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
+        ul.lista-ul.mb-2(style="list-style-type: square").lista-ul.lista-ul--color
           li 
             i.fas.fa-angle-right 
-            p Eventos.
+            span Eventos.
           li 
             i.fas.fa-angle-right 
-            p Actividades.
+            span Actividades.
           li 
             i.fas.fa-angle-right 
-            p Compuertas (control de flujo).
+            span Compuertas (control de flujo).
       
       .col-lg-4
         .imagen.m-2        
@@ -373,16 +373,16 @@
           .col-4.p-0.m-2.tarjeta-apilado.azul
             img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
             h3.text-center.m-3 Actividades
-            ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4.text-center
+            ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4
               li 
                 i.fas.fa-angle-right  
-                p Representan el trabajo realizado dentro de una organización.
+                span Representan el trabajo realizado dentro de una organización.
               li 
                 i.fas.fa-angle-right 
-                p Consumen recursos.
+                span Consumen recursos.
               li 
                 i.fas.fa-angle-right    
-                p Pueden ser simples o compuestas.
+                span Pueden ser simples o compuestas.
   
           .col-4.p-0.m-2.tarjeta-apilado.azul
             img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')

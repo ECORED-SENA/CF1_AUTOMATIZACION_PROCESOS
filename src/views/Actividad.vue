@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Comprensión Temática
-        p.mb-4 Adquirir conceptos sobre requerimientos de software.
+        p.mb-4 Adquirir conceptos sobre requerimientos de <i>software</i>.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

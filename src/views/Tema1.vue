@@ -40,7 +40,7 @@
       h3(data-aos="zoom-out-right") Técnicas en el levantamiento de requerimientos
     
     .row.mb-5
-      p.col12(data-aos="zoom-out-right") La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados (); también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de software:
+      p.col12(data-aos="zoom-out-right") La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados (); también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de <i>software</i>:
     
     .row.mb-5
       .col-lg-7
@@ -387,27 +387,27 @@
     
     .row.mb-4(data-aos="zoom-in-right")
       .col-lg-8
-        p <b>El documento de requerimientos es el lugar donde se describen las características y requisitos de un software, programa, conjunto de programas o productos.</b> Son expresados en lenguaje natural, sin términos técnicos ni consideraciones.<br><br/>La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar <i>el software</i> y los clientes o usuarios finales que utilizarán el mismo.
+        p <b>El documento de requerimientos es el lugar donde se describen las características y requisitos de un <i>software</i>, programa, conjunto de programas o productos.</b> Son expresados en lenguaje natural, sin términos técnicos ni consideraciones.<br><br/>La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar <i>el software</i> y los clientes o usuarios finales que utilizarán el mismo.
       .col-lg-2       
         img.ali3(src='@/assets/curso/imgtem13.jpg', style="width: 240px") 
     
-    .row.mb-5
-      .tarjeta.colorblue.p-4.mb-3(data-aos="zoom-in")
+    .row.mb-4
+      .tarjeta.colorblue.p-5.mb-4(data-aos="zoom-in")
         .row.justify-content-around.align-items-center
-          .col-2.col-sm-1.col-lg-1
+          .col-2.col-sm-2.col-lg-1.mb-2
             img(src="@/assets/componentes/icon1.png")
           .col
             .row.justify-content-between.align-items-center
-              .col.mb-2.mb-sm-0
-                h4.mb-1 Llamado a la acción
+              .col.mb-1.mb-sm-0
+                h5.mb-2 Llamado a la acción
                 p.text-small Se comparte una plantilla para la descripción de los requerimientos. Esta plantilla sigue los requerimientos establecidos en el estándar IEEE 830, (Instituto de Ingenieros Eléctricos y Electrónicos), es la sociedad técnica profesional más grande y prestigiosa del mundo. Del mismo modo, se menciona que la especificación de requisitos debe contener la descripción de las funcionalidades de la aplicación, relacionamiento con los sistemas externos y requerimientos no funcionales, de rendimiento, disponibilidad, tiempos de respuesta y mantenibilidad. 
-              .col-sm-auto
+              .col-sm-auto.mb-4
                 a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF001_Anexo2_Plantilla_requerimientos_de_software.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
     
     .row.mb-4
-      p(data-aos="zoom-in") Es importante mencionar que, de acuerdo con las necesidades de cada proyecto, podría ser necesario incluir elementos o información complementaria a este documento. A continuación, se comparte un esquema descriptivo de una plantilla de documento de requerimientos de software:
+      p(data-aos="zoom-in") Es importante mencionar que, de acuerdo con las necesidades de cada proyecto, podría ser necesario incluir elementos o información complementaria a este documento. A continuación, se comparte un esquema descriptivo de una plantilla de documento de requerimientos de <i>software</i>:
     
     .row.mb-4
       ImagenInfografica.color-acento-contenido.mb-5.col-7.ali4(data-aos="zoom-in")
@@ -416,31 +416,31 @@
             img(src='@/assets/template/imgmap.svg', alt='Texto que describa la imagen')
         
         .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.5%" y="4.5%" numero="+")
-          p Nombre o título del software que está especificado en el documento, incluyendo su número de versión o release. También se describen cuáles componentes o partes del alcance del producto están incluidas en el documento, estableciendo si cubre la totalidad del software, solo una parte del sistema, subsistema o subgrupo de procesos.
+          p Nombre o título del <i>software</i> que está especificado en el documento, incluyendo su número de versión o release. También se describen cuáles componentes o partes del alcance del producto están incluidas en el documento, estableciendo si cubre la totalidad del <i>software</i>, solo una parte del sistema, subsistema o subgrupo de procesos.
 
         .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="15.8%" numero="+")
-          p Descripción corta del alcance del software que se está especificando, incluyendo: propósito u objetivo general, beneficios que brinda al área de negocio y organización, relación de los objetivos del software con los objetivos corporativos y estrategias de negocio. Se puede hacer referencia a otros documentos.
+          p Descripción corta del alcance del <i>software</i> que se está especificando, incluyendo: propósito u objetivo general, beneficios que brinda al área de negocio y organización, relación de los objetivos del <i>software</i> con los objetivos corporativos y estrategias de negocio. Se puede hacer referencia a otros documentos.
 
         .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.2%" y="27.2%" numero="+")
-          p Aquí se puede incluir otros documentos impresos, documentos o direcciones electrónicas que complementen la documentación de requerimientos de software.
+          p Aquí se puede incluir otros documentos impresos, documentos o direcciones electrónicas que complementen la documentación de requerimientos de <i>software</i>.
 
         .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="38.6%" numero="+")
-          p Lista de las funcionalidades del software que se está especificando en el documento de requerimientos. Cada funcionalidad puede estar compuesta por uno o varios requerimientos funcionales de software. Solo se incluye una lista numerada de las principales funcionalidades.<br/><br/>Clases y características de usuarios<br/><br/>Se clasifican los usuarios que utilizaran el producto. La clasificación puede ser en función a la frecuencia de uso, grupo de funcionalidades utilizadas, privilegios de seguridad, nivel de experiencia y otros parámetros.
+          p Lista de las funcionalidades del <i>software</i> que se está especificando en el documento de requerimientos. Cada funcionalidad puede estar compuesta por uno o varios requerimientos funcionales de <i>software</i>. Solo se incluye una lista numerada de las principales funcionalidades.<br/><br/>Clases y características de usuarios<br/><br/>Se clasifican los usuarios que utilizaran el producto. La clasificación puede ser en función a la frecuencia de uso, grupo de funcionalidades utilizadas, privilegios de seguridad, nivel de experiencia y otros parámetros.
 
         .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.3%" y="50.2%" numero="+")
-          p Se describe el entorno operativo en el que se desenvolverá el sistema, software, módulo o grupo de funcionalidades, mencionando aspectos como la plataforma de hardware, versiones de sistema operativo y otros sistemas o componentes con los que debe coexistir.
+          p Se describe el entorno operativo en el que se desenvolverá el sistema, <i>software</i>, módulo o grupo de funcionalidades, mencionando aspectos como la plataforma de <i>hardware</i>, versiones de sistema operativo y otros sistemas o componentes con los que debe coexistir.
 
         .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="61.5%" numero="+")
           p Los requerimientos no funcionales son los que especifican criterios para evaluar la operación de un servicio de tecnología de información, en contraste con los requerimientos funcionales que especifican los comportamientos específicos. 
 
         .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.4%" y="73%" numero="+")
-          p Describe las características y atributos de las interfaces con el usuario (GUI), interfaces con el hardware, interfaces con otros sistemas de las interfaces de comunicaciones.
+          p Describe las características y atributos de las interfaces con el usuario (GUI), interfaces con el <i>hardware</i>, interfaces con otros sistemas de las interfaces de comunicaciones.
 
         .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="84.3%" numero="+")
-          p Listado de reglas y principios que aplican a todo el conjunto de requerimientos de software contenidos en el documento. Un ejemplo es cuáles individuos o roles pueden desempeñar cierta función bajo ciertas circunstancias. 
+          p Listado de reglas y principios que aplican a todo el conjunto de requerimientos de <i>software</i> contenidos en el documento. Un ejemplo es cuáles individuos o roles pueden desempeñar cierta función bajo ciertas circunstancias. 
 
         .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.2%" y="95.6%" numero="+")
-          p En esta sección de la plantilla, se ilustra cómo organizar los requerimientos funcionales de software por funcionalidad de producto o sistema. Aquí se listan las funcionalidades para cada una y a su vez se listan los requerimientos funcionales. Los requerimientos funcionales también se pueden documentar en una matriz de trazabilidad de requerimientos.
+          p En esta sección de la plantilla, se ilustra cómo organizar los requerimientos funcionales de <i>software</i> por funcionalidad de producto o sistema. Aquí se listan las funcionalidades para cada una y a su vez se listan los requerimientos funcionales. Los requerimientos funcionales también se pueden documentar en una matriz de trazabilidad de requerimientos.
 
 </template>
 
