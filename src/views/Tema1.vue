@@ -8,7 +8,7 @@
         span.text-white 1
       h1 Requerimientos
 
-    .row.align-items-center.mb-3
+    .row.mb-4
       .col-lg-6
         .cajon.color-primario.p-4.mb-4.mb-lg-0(style='background-color: #ECF7FF')
           p.mb-0 Los requerimientos son las peticiones o solicitudes que se consideran necesarias o importantes para satisfacer una o varias necesidades, ante un problema o mejora de un proceso.    
