@@ -16,7 +16,7 @@
       .col-lg-6
         .imagen        
           img(src='@/assets/curso/imgtem01.jpg', style="width: 400px") 
-    br
+    
     .row.align-items-center.mb-3
       .col-lg-5
         .imagen        
@@ -26,23 +26,23 @@
           p.mb-0 El propósito principal de los requerimientos es asegurar la satisfacción de las expectativas de los clientes y sus interesados (<i> stakeholders </i>), internos y externos, relacionando de manera eficiente, los vínculos que esperan los clientes y usuarios, y lo que el grupo del proyecto tiende a desarrollar.
         p.m-2 Ahora bien, los requerimientos son adaptados a todo tipo de proyectos, así, se trata de garantizar el óptimo funcionamiento de los procesos, sirviendo de referencia para el aseguramiento y control de los cambios que se pueden presentar en el proyecto (trazabilidad).
       
-    .row
+    .row.mb-4
       .cajon.cajontitle2.col-2(data-aos="zoom-in-right")
         h3.text Control de cambios
-    <br>
-    .row
+    
+    .row.mb-4
       .col-lg-7
         p.align-center(data-aos="zoom-in-right") Durante la ejecución del proyecto se encuentran muchas situaciones, en las que se identifican nuevas necesidades, las cuales ni siquiera se habían pensado, pero se hace necesario anexarlas a la aplicación.<br><br>Estos cambios imprevistos, hacen que se replanteen nuevos requerimientos e incluso requerimientos ya documentados.<br><br>Se debe definir desde un principio la forma en que se gestionaran dichos cambios, debido a que pueden generar retrocesos en el desarrollo y en la planeación.<br><br>Se deben incluir cláusulas contractuales claras para que las partes a intervenir lo tengan en cuenta, y no se tenga que retroceder en lo que se ha desarrollado.
-      .col-lg-4
-        img.imgpos3(src='@/assets/curso/imgtem03.jpg')(data-aos="zoom-in-left")    
-    <br>
-    .row
+      .col-lg-3
+        img.imgpos3.m-4(src='@/assets/curso/imgtem03.jpg')(data-aos="zoom-in-left")    
+    
+    .row.mb-4
       h3(data-aos="zoom-out-right") Técnicas en el levantamiento de requerimientos
-    <br>
-    .row
+    
+    .row.mb-5
       p.col12(data-aos="zoom-out-right") La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados (); también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de software:
-    <br>
-    .row
+    
+    .row.mb-5
       .col-lg-7
         .row.mb-5(data-aos="fade-up")
           .col-md-12.mb-4.mb-md-0
@@ -168,8 +168,8 @@
                     p Las historias de usuario son una de las técnicas más importantes al momento de levantar requerimientos.
       .col-lg-5  
         img(src='@/assets/curso/imgtem04.jpg')(data-aos="fade-up")
-    br
-    .row
+  
+    .row.mb-5
       .col-lg-10.caj
         .cajon.color-acento-botones.p-4.mb-4.mb-lg-0(style='background-color: #FEF4D6')
           h4 Los requerimientos:
@@ -185,14 +185,14 @@
             li 
               i.fas.fa-angle-right 
               | Así mismo, se pueden relacionar los requisitos como las restricciones impuestas a un usuario por algunos interesados, definiendo objetivos precisos de un proyecto.
-    br
-    .row
+    
+    .row.mb-2
       p(data-aos="zoom-in") Las restricciones siempre serán necesarias para lograr manipular o editar el manejo de la aplicación de manera controlada, efectiva y funcional, para que se lleven a cabo los procesos de manera eficaz en la operación de las tareas.
-    .row
+    .row.mb-5
       .cajon.cajontitle21.col-2(data-aos="zoom-in")
         h3.text(data-aos="zoom-in") Restricciones
-    br
-    .row
+    
+    .row.mb-2
       p(data-aos="zoom-in") Hacen énfasis, por ejemplo, en los permisos de accesos a usuarios en el sistema.
       br
       p(data-aos="zoom-in") Todos los usuarios del sistema lo podrán operar, pero no todos tienen los mismos derechos en la aplicación.
@@ -202,10 +202,10 @@
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       #t_1_1.h2 1.1 Características de requerimientos
-    .row
+    .row.mb-4
       p(data-aos="zoom-in") Los requerimientos deben cumplir con cierto tipo de características y criterios:
-    br
-    .row
+    
+    .row.mb-4
       .col-lg-7
         .row.mb-5(data-aos="zoom-in-right")
           .col-md-12.mb-5.mb-md-0
@@ -248,43 +248,42 @@
       .col-lg-5
         img.imgpos3(src='@/assets/curso/imgtem05.jpg')(data-aos="zoom-in-left")
 
-    .row
+    .row.mb-4
       .cajon.cajontitle3.col-3(data-aos="zoom-in")
         h3.text(data-aos="zoom-in") Estructura de los requerimientos
-    br
-    .row
-      p(data-aos="zoom-in") Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los <i>stakeholders</i> como se muestra en la siguiente imagen:
-    br
-    .row
+  
+    p.mb-5(data-aos="zoom-in") Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los <i>stakeholders</i> como se muestra en la siguiente imagen:
+    
+    .row.mb-5
       img.col-10.imgpos4(src='@/assets/curso/requerimientos.svg')(data-aos="zoom-in")
-    br
-    .row
+    
+    .row.mb-5
       p(data-aos="zoom-in") Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
-    br
+    
 
-    .cajon.cajontitle4.col-3(data-aos="zoom-in")
+    .cajon.cajontitle4.col-3.mb-4(data-aos="zoom-in")
       h3.text ¿Qué es la trazabilidad?
-    br
-    .row
+    
+    .row.mb-5
       .col-lg-7(data-aos="zoom-in-right")
         p Es la documentación de la vida de cada uno de los requerimientos, permitiendo el historial de su formulación original hasta el documento final
         p <b>Se debe documentar cada paso de manera estricta para conseguir la trazabilidad.</b>
         p Los requerimientos y necesidades surgen de diversas fuentes, como el cliente, el manager, los usuarios, etc., todos y cada uno comprenden de diferentes formas los requerimientos, y es en este momento, donde los requerimientos se deben precisar para poder planear y llevarlo a la ejecución.<br><br>Utilizando la trazabilidad se sigue el historial de cada característica implementada hasta las personas o grupos que solicitaron la generación de los requerimientos, de esta manera, se permite un análisis más rápido en cada fase del proyecto.
       .col-lg-5
         img.imgpos5(src='@/assets/curso/imgtem07.jpg')(data-aos="zoom-in-left")
-    br
-    .row
+    
+    .row.mb-4
       .cajon.cajontitle4.col-3(data-aos="zoom-in")
         h3.text Tipos de requerimientos
-    br
-    .row
+    
+    .row.mb-4
       p(data-aos="zoom-in") Los requerimientos se clasifican en:
-    br
-    .row
+    
+    .row.mb-3
       .titulo_principal(data-aos="zoom-in")
         h3 Requerimientos funcionales
-    br
-    .row.align-items-center.mb-3
+    
+    .row.align-items-center.mb-5
       .col-lg-8
         .cajon.color-primario.p-4.mb-4.mb-lg-0(style='background-color: #ECF7FF')
           p.mb-0 Son las declaraciones de los servicios que prestará el sistema, es la forma como reacciona a determinadas funciones. Del mismo modo, podrían ser la manera de interactuar con otros sistemas, el tipo de respuestas automáticas y los procesos predefinidos. En otros casos también los requisitos funcionales establecen de manera precisa lo que el sistema no debe hacer, es decir también puede ser una declaración negativa.    
@@ -292,17 +291,17 @@
       .col-lg-4
         .imagen        
           img(src='@/assets/curso/imgtem08.jpg', style="width: 400px")     
-    br
-    .row.cajon.p-3(data-aos="zoom-in")(style='background-color: #FEF4D6')
+    
+    .row.cajon.p-4.mb-5(data-aos="zoom-in")(style='background-color: #FEF4D6')
         .col-1
           img(src='@/assets/curso/imgtem09.png')
         .col-11
-          p El analista es el responsable de la documentación, por lo tanto, el mismo deberá tratar de asegurarse que no hay lagunas de comprensión, por eso es importante tener en cuenta las historias de usuario, asegurándose de que todo el equipo está sincronizado respecto a los requisitos, objetivos e implementación.
-    br
-    .row
+          p.m-1 El analista es el responsable de la documentación, por lo tanto, el mismo deberá tratar de asegurarse que no hay lagunas de comprensión, por eso es importante tener en cuenta las historias de usuario, asegurándose de que todo el equipo está sincronizado respecto a los requisitos, objetivos e implementación.
+    
+    .row.mb-5
       p(data-aos="zoom-in") Algunos ejemplos de requerimientos funcionales con características que permiten utilizar la aplicación de manera cómoda y visual, ya sea en el diseño, menú, botones, entre otros, son:
-    br
-    .row
+    
+    .row.mb-5
       SlyderE(indicadores="derecha")(data-aos="zoom-in")
         .row
           .col-md-4.mb-2.mb-md-0
@@ -346,54 +345,53 @@
           .col-md-8
             figure
               img(src='@/assets/curso/imgtem11.jpg')
-    br
-    .row
+    
+    .row.mb-4
       .titulo_principal(data-aos="zoom-in")
         h3 Requerimientos no funcionales
-    br
-    .row.align-items-center.mb-3
+  
+    .row.align-items-center.mb-4
       .col-lg-8    
         p.m-2 Son los requerimientos que no interfieren con las funciones específicas que entrega el sistema, asegurando la fiabilidad, tiempos de respuesta y capacidad de almacenamiento. En otras palabras, no habla de lo que hace el sistema, sino de cómo lo hace, define restricciones de entrada y salida, representando datos utilizados en las interfaces del sistema.<br><br>Puede ser con lenguaje de programación Java, con alta velocidad de procesamiento de datos, para un óptimo funcionamiento de la aplicación, disponibilidad, entre otros. Son los requisitos que debe tener la aplicación para que funcione adecuadamente, se encargan de que la aplicación cumpla con lo que tiene que hacer.
-        .cajon.color-acento-botones.p-4.mb-4.mb-lg-0
+        .cajon.color-acento-botones.p-4.mb-5.mb-lg-0
             p.mb-0 <b>Los requerimientos no funcionales</b> son los requisitos que debe tener la aplicación para que funcione adecuadamente; estos se encargan de que la aplicación cumpla con lo que se quiere hacer, por otro lado, los requerimientos funcionales son todo lo que el usuario ve y manipula.    
       .col-lg-4
         .imagen        
           img(src='@/assets/curso/imgtem12.jpg', style="width: 450px")    
-    br
-    .row(data-aos="zoom-in-right")
-      p A continuación, se muestran ejemplos de requisitos no funcionales dentro de una aplicación para pedir un taxi:
-    br
-    .row 
+
+    p.mb-4(data-aos="zoom-in-right") A continuación, se muestran ejemplos de requisitos no funcionales dentro de una aplicación para pedir un taxi:
+    
+    .row.mb-4
       .col-lg-12
         .row.justify-content-center
           .col-lg-4.p-0.m-3.tarjeta-apilado.azul1
             img(src='@/assets/curso/tar1.jpg', alt='', class='img-fluid')
             h3.text-center.m-4 Operación 7x24
-            p.m-5.y-5 La aplicación debe operar las 24 horas del día durante todo el año.<br><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
+            p.m-5.y-4 La aplicación debe operar las 24 horas del día durante todo el año.<br><br/>Hace referencia a la disponibilidad, nunca debe fallar y estar siempre disponible.
           
           .col-lg-4.p-0.m-3.tarjeta-apilado.azul1
             img(src='@/assets/curso/tar2.jpg', alt='', class='img-fluid')
             h3.text-center.m-4 Registro de usuario
-            p.m-5.y-5 Para su uso se requieren datos de registro.<br><br/>Esta opción de seguridad es un requisito que no se puede ver, pero es necesario para que la aplicación funcione; es un requisito no funcional. 
-    br
-    .row
+            p.m-5.y-4 Para su uso se requieren datos de registro.<br><br/>Esta opción de seguridad es un requisito que no se puede ver, pero es necesario para que la aplicación funcione; es un requisito no funcional. 
+    
+    .row.mb-4
       .cajon-b.colorcajon7(data-aos="zoom-in")
         p 
           span.text-bold Los requerimientos no funcionales no se pueden ver ni tocar
           span , porque están “detrás” de la aplicación, para que funcione de manera rápida, segura y en cualquier momento. 
     separador
 
-    .row
+    .row.mb-5
       .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
         #t_1_2.h2 1.2 Documentación de requerimientos
-    br
-    .row(data-aos="zoom-in-right")
+    
+    .row.mb-4(data-aos="zoom-in-right")
       .col-lg-8
         p <b>El documento de requerimientos es el lugar donde se describen las características y requisitos de un software, programa, conjunto de programas o productos.</b> Son expresados en lenguaje natural, sin términos técnicos ni consideraciones.<br><br/>La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar <i>el software</i> y los clientes o usuarios finales que utilizarán el mismo.
       .col-lg-2       
         img.ali3(src='@/assets/curso/imgtem13.jpg', style="width: 240px") 
-    br
-    .row
+    
+    .row.mb-5
       .tarjeta.colorblue.p-4.mb-3(data-aos="zoom-in")
         .row.justify-content-around.align-items-center
           .col-2.col-sm-1.col-lg-1
@@ -407,17 +405,17 @@
                 a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF001_Anexo2_Plantilla_requerimientos_de_software.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
-    br
-    .row
+    
+    .row.mb-4
       p(data-aos="zoom-in") Es importante mencionar que, de acuerdo con las necesidades de cada proyecto, podría ser necesario incluir elementos o información complementaria a este documento. A continuación, se comparte un esquema descriptivo de una plantilla de documento de requerimientos de software:
-    br
-    .row
-      ImagenInfografica.color-acento-contenido.mb-5.col-6.ali4(data-aos="zoom-in")
+    
+    .row.mb-4
+      ImagenInfografica.color-acento-contenido.mb-5.col-7.ali4(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
             img(src='@/assets/template/imgmap.svg', alt='Texto que describa la imagen')
         
-        .tarjeta-a.ali.bg-tarjeta-infografia-o.p-3(x="82.5%" y="4.5%" numero="+")
+        .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.5%" y="4.5%" numero="+")
           p Nombre o título del software que está especificado en el documento, incluyendo su número de versión o release. También se describen cuáles componentes o partes del alcance del producto están incluidas en el documento, estableciendo si cubre la totalidad del software, solo una parte del sistema, subsistema o subgrupo de procesos.
 
         .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="15.8%" numero="+")
