@@ -9,17 +9,17 @@
       h1 Notaciones de requerimientos
 
     
-    .row.align-items-center.mb-3(data-aos="zoom-in-left") 
+    .row.align-items-center.mb-4(data-aos="zoom-in-left") 
       .col-lg-7
         p.m-2 La notación textual de los requerimientos es necesaria para la relación de la comunicación efectiva entre clientes, usuarios e interesados, deben lograr interpretar lo que queda plasmado en figuras.<br/><br/>La notación gráfica que se utiliza en la especificación de los requerimientos por excelencia es UML (Lenguaje de Modelado Unificado), específicamente en los diagramas de casos de uso, estados y actividades, que describen en detalles los usos del sistema.<br/><br/>Como se muestra a continuación, para los diagramas UML existen diferentes versiones aprobadas por la ISO, cuentan con diferentes tipos, clasificándolos según su estructura o comportamiento:
       .col-lg-5
         .imagen        
           img(src='@/assets/curso/imgtem201.jpg', style="width: 350px") 
-    br
-    .row
+    
+    .row.mb-4
       h4.text(data-aos="zoom-in") Entre los diagramas de estructura se encuentran:
-    br
-    .row
+  
+    .row.mb-4
       SlyderE(indicadores="derecha")(data-aos="zoom-in-left") 
         .row
           .col-md-4.mb-4.mb-md-0
@@ -72,11 +72,11 @@
           .col-md-8
             figure
               img(src='@/assets/template/esquema6.svg', alt='Texto que describa la imagen')
-    br
-    .row
+    
+    .row.mb-5
       h4.text(data-aos="zoom-in") Entre los diagramas de comportamiento se tienen:
-    br
-    .row
+    
+    .row.mb-4
       SlyderE(indicadores="derecha")(data-aos="zoom-in-left") 
         .row
           .col-md-4.mb-4.mb-md-0
@@ -115,15 +115,15 @@
     
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       #t_2_1.h2 2.1 Procesos organizacionales
-    br
-    .row.align-items-center.mb-3(data-aos="zoom-in-left") 
+    
+    .row.align-items-center.mb-4(data-aos="zoom-in-left") 
       .col-lg-7
         p.m-2 Hacen referencia al conjunto de pasos para llevar a cabo en una organización, junto con sus miembros, con el fin de lograr las metas propuestas y los objetivos.<br/><br/>Se ha determinado, a través del tiempo e investigaciones, que lo único constante es el cambio en las organizaciones.<br/><br/> Del mismo modo, el avance tecnológico que se globaliza en los últimos tiempos obliga a las empresas a adoptar nuevas herramientas tecnológicas de gestión y capacitación de los empleados en el uso eficiente de ellas, como única alternativa para sobrevivir y mantenerse en el mercado. A continuación, se presenta algunos tipos de procesos dentro de las organizaciones:
       .col-lg-5
         .imagen        
           img(src='@/assets/curso/imgtem203.jpg', style="width: 420px") 
-    br
-    .row
+    
+    .row.mb-5
       .tarjeta.colorblue.p-4.mb-5(data-aos="zoom-in")(style='background-color: #F3F9FF')
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1
@@ -141,8 +141,8 @@
     
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
       #t_2_2.h2 2.2 Modelado de procesos
-    br
-    .row.align-items-center.mb-3(data-aos="zoom-in-left") 
+    
+    .row.align-items-center.mb-4(data-aos="zoom-in-left") 
       .col-lg-7
         ul(style="list-style-type: square").lista-ul.lista-ul--color
           li 
@@ -157,11 +157,10 @@
       .col-lg-5
         .imagen        
           img(src='@/assets/curso/imgtem204.jpg', style="width: 500px") 
-    br
-    .row
-      h4.text(data-aos="zoom-in") Las categorías de información para tener en cuenta para el modelado de procesos son:
-    br
-    .row.col-12
+    
+    h4.text.mb-5(data-aos="zoom-in") Las categorías de información para tener en cuenta para el modelado de procesos son:
+    
+    .row.col-12.mb-5
       .col-3.tarjeta-apilado.verde.p-0
         img(src='@/assets/curso/tar3.png', alt='', class='img-fluid', style="width: 290px")
         h4.text-center.m-2 Insumos
@@ -181,15 +180,14 @@
         img(src='@/assets/curso/tar6.png', alt='', class='img-fluid', style="width: 290px")
         h4.text-center.m-2 Guías
         p.m-4.text-center se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
-      br
-    .row
-      .cajon.cajontitle5.col-3(data-aos="zoom-in")
-        h3.text Técnicas de modelado de procesos
-    br
-    .row
-      p(data-aos="zoom-in") Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un software fiable para realizar el modelado de los procesos.
-    br
-    .row.align-items-center.m-4(data-aos="zoom-in-left").justify-content-center
+      
+    
+    .cajon.cajontitle5.col-3.mb-4(data-aos="zoom-in")
+      h3.text Técnicas de modelado de procesos
+    
+    p.mb-5(data-aos="zoom-in") Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un software fiable para realizar el modelado de los procesos.
+    
+    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-md-3
         .imagen.m-3       
           img(src='@/assets/curso/imgtem205.jpg', style="width: 280px") 
@@ -207,24 +205,21 @@
           li 
             i.fas.fa-angle-right 
             p Enfoque de abajo hacia arriba analizando el proceso del nivel de flujo de trabajo, es más lento, pero se encuentran mayores detalles.
-    br
-    .row
-      .cajon.cajontitle6.col-3(data-aos="zoom-in")
-        h3.text Diagrama de flujo
-    br
+  
+    .cajon.cajontitle6.col-3.mb-4(data-aos="zoom-in")
+      h3.text Diagrama de flujo
+    
     .row.align-items-center.mb-3
       .col-lg-7
         p.m-2 Es un diagrama que describe un proceso, sistema o algoritmo informático, es usado ampliamente en muchos campos para documentar, estudiar, mejorar, planificar y comunicar procesos que suelen ser muy complejos en algunos diagramas claros y fáciles en su comprensión.<br><br/>En los diagramas se utilizan rectángulos, óvalos, diamantes y otras figuras más para definir el tipo de paso, junto a flechas conectoras estableciendo flujos y secuencias. Varían desde diagramas simples o hechos a mano, hasta los más complejos creados en computadora, describiendo múltiples pasos y rutas. 
       .col-lg-4
         .imagen.m-4        
           img(src='@/assets/curso/imgtem206.jpg', style="width: 400px")
-    br
-    .row
-      .cajon-b.col-9.cajontitle7(data-aos="zoom-in")
-        h3.col-9.text Las figuras utilizadas en un diagrama de flujo son: 
-    br
-    br
-    .row.col-lg-9.caj
+    
+    .cajon-b.col-9.cajontitle7.mb-4(data-aos="zoom-in")
+      h3.col-9.text Las figuras utilizadas en un diagrama de flujo son: 
+    
+    .row.col-lg-9.caj.mb-5
       PasosA.color-acento-contenido(tipo="n")(data-aos="zoom-in").pasos-a__linea__esquina__linea
         .row
           .col-8
@@ -269,8 +264,8 @@
           .col-4
             figure
               img.m-2(src='@/assets/template/5.png')
-    br
-    .row.justify-content-center
+    
+    .row.justify-content-center.mb-5
       .col-md-7.cajon-a.color-primario(style='background-color: #ECF7FF')(data-aos="zoom-in").p-4
         .col-12
           p Los diagramas de flujo a veces los denominan con nombres más especializados, como:
@@ -281,24 +276,23 @@
             ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
               li 
                 i.fas.fa-angle-right 
-                p Mapas de procesos.
+                span Mapas de procesos.
               li 
                 i.fas.fa-angle-right 
-                p Diagramas de flujo de procesos.
+                span Diagramas de flujo de procesos.
               li 
                 i.fas.fa-angle-right 
-                p Diagrama de flujo funcional.
+                span Diagrama de flujo funcional.
               li 
                 i.fas.fa-angle-right 
-                p Mapa de procesos de negocio.
+                span Mapa de procesos de negocio.
               li 
                 i.fas.fa-angle-right 
-                p BPMN, modelado de procesos de negocio. 
-    br
-    .row
-      h3.text2(data-aos="zoom-in") Se relacionan con otros diagramas populares, como: 
-    br
-    .row
+                span BPMN, modelado de procesos de negocio. 
+    
+    h3.text2.mb-5(data-aos="zoom-in") Se relacionan con otros diagramas populares, como: 
+    
+    .row.mb-5
       SlyderE(indicadores="derecha")(data-aos="zoom-in")
         .row
           .col-md-4.mb-4.mb-md-0
@@ -344,12 +338,11 @@
           .col-md-8
             figure
               img(src='@/assets/template/Diagrama5.svg')
-    br
-    .row
-      .cajon.cajontitle6.col-3(data-aos="zoom-in")
-        h3.text El modelo BPMN
-    br
-    .row.align-items-center.mb-3
+    
+    .cajon.cajontitle6.col-3.mb-5(data-aos="zoom-in")
+      h3.text El modelo BPMN
+  
+    .row.align-items-center.mb-4
       .col-lg-7
         p.m-2 Se denomina así por su sigla en inglés <i>Business Process Modeling Notation</i>, notación para el modelado de procesos de negocios, es el estándar internacional para modelar procesos, la notación gráfica que describe la lógica de los pasos de un proceso de negocio.<br/><br/> Los principales elementos de BPMN son:
         ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
@@ -366,11 +359,10 @@
       .col-lg-4
         .imagen.m-2        
           img(src='@/assets/curso/imgtem207.jpg', style="width: 420px")
-    br
-    .row
-      p.col-12.text3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
-    br 
-    .row
+
+    p.col-12.text3.mb-3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
+    
+    .row.mb-5
       .col-12
         .row
           .col-4.p-0.m-2.tarjeta-apilado.azul
@@ -396,11 +388,10 @@
             img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
             h3.text-center.m-3 Compuertas
             p.m-4.text-center Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
-    br
-    .row
-      p.col-12.text4(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
-    br
-    .row
+    
+    p.col-12.text4.mb-5(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
+    
+    .row.mb-5
       img(src='@/assets/curso/modelo.svg')(data-aos="zoom-in")
       .col-lg-10.m-t1-top.p-2.caj
         .tarjeta.coloramarillo.p-4(data-aos="zoom-in")
