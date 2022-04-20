@@ -7,7 +7,7 @@
       .col-lg-5.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")(style="color: #ffffff !important")
-        .col-lg-11
+        .col-lg-10
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")(style="color: #ffffff !important")
         .banner-principal__accion
@@ -46,8 +46,8 @@ export default {
   z-index: 3
 
 .py-sm-5
-    padding-top: 6rem!important;
-    padding-bottom: 6rem!important;
+    padding-top: 8rem!important;
+    padding-bottom: 8rem!important;
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
@@ -66,10 +66,10 @@ export default {
   &__programa
     display: flex
     align-items: center
-    margin-bottom: 20px
+    margin-bottom: 30px
 
   &__componente
-    margin-bottom: 20px
+    margin-bottom: 30px
     h1
       line-height: 1.1em
 
@@ -77,7 +77,7 @@ export default {
         font-size: 2em
 
   &__descripcion
-    margin-bottom: 20px
+    margin-bottom: 30px
 
   &__row
     @if $banner-principal-img-x == 'derecha'

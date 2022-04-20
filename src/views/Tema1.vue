@@ -293,9 +293,9 @@
           img(src='@/assets/curso/imgtem08.jpg', style="width: 400px")     
     
     .row.cajon.p-4.mb-5(data-aos="zoom-in")(style='background-color: #FEF4D6')
-        .col-1
-          img(src='@/assets/curso/imgtem09.png')
-        .col-11
+        .col-2
+          img(src='@/assets/curso/imgtem09.png' style="width: 90px")
+        .col-10
           p.m-1 El analista es el responsable de la documentación, por lo tanto, el mismo deberá tratar de asegurarse que no hay lagunas de comprensión, por eso es importante tener en cuenta las historias de usuario, asegurándose de que todo el equipo está sincronizado respecto a los requisitos, objetivos e implementación.
     
     .row.mb-5
@@ -388,13 +388,13 @@
     .row.mb-4(data-aos="zoom-in-right")
       .col-lg-8
         p <b>El documento de requerimientos es el lugar donde se describen las características y requisitos de un <i>software</i>, programa, conjunto de programas o productos.</b> Son expresados en lenguaje natural, sin términos técnicos ni consideraciones.<br><br/>La especificación de los requisitos es el resultado del levantamiento de información, junto con el cliente y/o usuario de los productos. Es el método de comunicación más precisa y clara entre los que se encargan de desarrollar <i>el software</i> y los clientes o usuarios finales que utilizarán el mismo.
-      .col-lg-2       
+      .col-lg-4       
         img.ali3(src='@/assets/curso/imgtem13.jpg', style="width: 240px") 
     
     .row.mb-4
-      .tarjeta.colorblue.p-5.mb-4(data-aos="zoom-in")
+      .tarjeta.colorblue.p-4.mb-4(data-aos="zoom-in")
         .row.justify-content-around.align-items-center
-          .col-2.col-sm-2.col-lg-1.mb-2
+          .col-2.col-sm-2.col-lg-1.mb-5
             img(src="@/assets/componentes/icon1.png")
           .col
             .row.justify-content-between.align-items-center
@@ -409,38 +409,38 @@
     .row.mb-4
       p(data-aos="zoom-in") Es importante mencionar que, de acuerdo con las necesidades de cada proyecto, podría ser necesario incluir elementos o información complementaria a este documento. A continuación, se comparte un esquema descriptivo de una plantilla de documento de requerimientos de <i>software</i>:
     
-    .row.mb-4
-      ImagenInfografica.color-acento-contenido.mb-5.col-7.ali4(data-aos="zoom-in")
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/template/imgmap.svg', alt='Texto que describa la imagen')
-        
-        .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.5%" y="4.5%" numero="+")
-          p Nombre o título del <i>software</i> que está especificado en el documento, incluyendo su número de versión o release. También se describen cuáles componentes o partes del alcance del producto están incluidas en el documento, estableciendo si cubre la totalidad del <i>software</i>, solo una parte del sistema, subsistema o subgrupo de procesos.
 
-        .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="15.8%" numero="+")
-          p Descripción corta del alcance del <i>software</i> que se está especificando, incluyendo: propósito u objetivo general, beneficios que brinda al área de negocio y organización, relación de los objetivos del <i>software</i> con los objetivos corporativos y estrategias de negocio. Se puede hacer referencia a otros documentos.
+    ImagenInfografica.color-acento-contenido.col-lg-8.mb-5.caj
+      template(v-slot:imagen)
+        figure.center
+          img(src='@/assets/template/imgmap.svg', alt='Texto que describa la imagen')
 
-        .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.2%" y="27.2%" numero="+")
-          p Aquí se puede incluir otros documentos impresos, documentos o direcciones electrónicas que complementen la documentación de requerimientos de <i>software</i>.
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="83.5%" y="4.5%" numero="+")
+          p.mb-2 Nombre o título del <i>software</i> que está especificado en el documento, incluyendo su número de versión o release. También se describen cuáles componentes o partes del alcance del producto están incluidas en el documento, estableciendo si cubre la totalidad del <i>software</i>, solo una parte del sistema, subsistema o subgrupo de procesos.
 
-        .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="38.6%" numero="+")
-          p Lista de las funcionalidades del <i>software</i> que se está especificando en el documento de requerimientos. Cada funcionalidad puede estar compuesta por uno o varios requerimientos funcionales de <i>software</i>. Solo se incluye una lista numerada de las principales funcionalidades.<br/><br/>Clases y características de usuarios<br/><br/>Se clasifican los usuarios que utilizaran el producto. La clasificación puede ser en función a la frecuencia de uso, grupo de funcionalidades utilizadas, privilegios de seguridad, nivel de experiencia y otros parámetros.
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="97.8%" y="15.8%" numero="+")
+          p.mb-2 Descripción corta del alcance del <i>software</i> que se está especificando, incluyendo: propósito u objetivo general, beneficios que brinda al área de negocio y organización, relación de los objetivos del <i>software</i> con los objetivos corporativos y estrategias de negocio. Se puede hacer referencia a otros documentos.
 
-        .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.3%" y="50.2%" numero="+")
-          p Se describe el entorno operativo en el que se desenvolverá el sistema, <i>software</i>, módulo o grupo de funcionalidades, mencionando aspectos como la plataforma de <i>hardware</i>, versiones de sistema operativo y otros sistemas o componentes con los que debe coexistir.
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="83.5%" y="27.2%" numero="+")
+          p.mb-2 Aquí se puede incluir otros documentos impresos, documentos o direcciones electrónicas que complementen la documentación de requerimientos de <i>software</i>.
 
-        .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="61.5%" numero="+")
-          p Los requerimientos no funcionales son los que especifican criterios para evaluar la operación de un servicio de tecnología de información, en contraste con los requerimientos funcionales que especifican los comportamientos específicos. 
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="97.7%" y="38.6%" numero="+")
+          p.mb-2 Lista de las funcionalidades del <i>software</i> que se está especificando en el documento de requerimientos. Cada funcionalidad puede estar compuesta por uno o varios requerimientos funcionales de <i>software</i>. Solo se incluye una lista numerada de las principales funcionalidades.<br/><br/>Clases y características de usuarios<br/><br/>Se clasifican los usuarios que utilizaran el producto. La clasificación puede ser en función a la frecuencia de uso, grupo de funcionalidades utilizadas, privilegios de seguridad, nivel de experiencia y otros parámetros.
 
-        .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.4%" y="73%" numero="+")
-          p Describe las características y atributos de las interfaces con el usuario (GUI), interfaces con el <i>hardware</i>, interfaces con otros sistemas de las interfaces de comunicaciones.
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="83.7%" y="50.2%" numero="+")
+          p.mb-2 Se describe el entorno operativo en el que se desenvolverá el sistema, <i>software</i>, módulo o grupo de funcionalidades, mencionando aspectos como la plataforma de <i>hardware</i>, versiones de sistema operativo y otros sistemas o componentes con los que debe coexistir.
 
-        .tarjeta.ali2.bg-tarjeta-infografia-o.p-3(x="96%" y="84.3%" numero="+")
-          p Listado de reglas y principios que aplican a todo el conjunto de requerimientos de <i>software</i> contenidos en el documento. Un ejemplo es cuáles individuos o roles pueden desempeñar cierta función bajo ciertas circunstancias. 
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="97.6%" y="61.5%" numero="+")
+          p.mb-2 Los requerimientos no funcionales son los que especifican criterios para evaluar la operación de un servicio de tecnología de información, en contraste con los requerimientos funcionales que especifican los comportamientos específicos. 
 
-        .tarjeta.ali.bg-tarjeta-infografia-o.p-3(x="82.2%" y="95.6%" numero="+")
-          p En esta sección de la plantilla, se ilustra cómo organizar los requerimientos funcionales de <i>software</i> por funcionalidad de producto o sistema. Aquí se listan las funcionalidades para cada una y a su vez se listan los requerimientos funcionales. Los requerimientos funcionales también se pueden documentar en una matriz de trazabilidad de requerimientos.
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="83.5%" y="73%" numero="+")
+          p.mb-2 Describe las características y atributos de las interfaces con el usuario (GUI), interfaces con el <i>hardware</i>, interfaces con otros sistemas de las interfaces de comunicaciones.
+
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="97.6%" y="84.5%" numero="+")
+          p.mb-2 Listado de reglas y principios que aplican a todo el conjunto de requerimientos de <i>software</i> contenidos en el documento. Un ejemplo es cuáles individuos o roles pueden desempeñar cierta función bajo ciertas circunstancias. 
+
+      .tarjeta.bg-tarjeta-infografia-o.p-3(x="83.5%" y="95.7%" numero="+")
+          p.mb-2 En esta sección de la plantilla, se ilustra cómo organizar los requerimientos funcionales de <i>software</i> por funcionalidad de producto o sistema. Aquí se listan las funcionalidades para cada una y a su vez se listan los requerimientos funcionales. Los requerimientos funcionales también se pueden documentar en una matriz de trazabilidad de requerimientos.
 
 </template>
 

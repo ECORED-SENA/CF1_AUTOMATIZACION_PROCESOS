@@ -216,8 +216,9 @@
         .imagen.m-4        
           img(src='@/assets/curso/imgtem206.jpg', style="width: 400px")
     
-    .cajon-b.col-9.cajontitle7.mb-4(data-aos="zoom-in")
-      h3.col-9.text Las figuras utilizadas en un diagrama de flujo son: 
+    .row.mb-4(data-aos="zoom-in")
+      .cajon-b.col-10.cajontitle7
+        h3.text Las figuras utilizadas en un diagrama de flujo son: 
     
     .row.col-lg-9.caj.mb-5
       PasosA.color-acento-contenido(tipo="n")(data-aos="zoom-in").pasos-a__linea__esquina__linea
