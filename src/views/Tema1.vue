@@ -32,7 +32,7 @@
     
     .row.mb-4
       .col-lg-7
-        p.align-center(data-aos="zoom-in-right") Durante la ejecución del proyecto se encuentran muchas situaciones, en las que se identifican nuevas necesidades, las cuales ni siquiera se habían pensado, pero se hace necesario anexarlas a la aplicación.<br><br>Estos cambios imprevistos, hacen que se replanteen nuevos requerimientos e incluso requerimientos ya documentados.<br><br>Se debe definir desde un principio la forma en que se gestionaran dichos cambios, debido a que pueden generar retrocesos en el desarrollo y en la planeación.<br><br>Se deben incluir cláusulas contractuales claras para que las partes a intervenir lo tengan en cuenta, y no se tenga que retroceder en lo que se ha desarrollado.
+        p.align-center(data-aos="zoom-in-right") Durante la ejecución del proyecto se encuentran muchas situaciones, en las que se identifican nuevas necesidades, las cuales ni siquiera se habían pensado, pero se hace necesario anexarlas a la aplicación.<br><br>Estos cambios imprevistos, hacen que se replanteen nuevos requerimientos e incluso requerimientos ya documentados.<br><br>Se debe definir desde un principio la forma en que se gestionarán dichos cambios, debido a que pueden generar retrocesos en el desarrollo y en la planeación.<br><br>Se deben incluir cláusulas contractuales claras para que las partes a intervenir lo tengan en cuenta, y no se tenga que retroceder en lo que se ha desarrollado.
       .col-lg-3
         img.imgpos3.m-4(src='@/assets/curso/imgtem03.jpg')(data-aos="zoom-in-left")    
     
@@ -40,7 +40,7 @@
       h3(data-aos="zoom-out-right") Técnicas en el levantamiento de requerimientos
     
     .row.mb-5
-      p.col12(data-aos="zoom-out-right") La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados (); también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de <i>software</i>:
+      p.col12(data-aos="zoom-out-right") La etapa fundamental para la creación de un sistema, dentro de un proyecto informático, es la identificación y documentación de los requerimientos del sistema al iniciar el proyecto, puesto que en muchas situaciones se plantean ideas y se ayudan a prevenir ciertos errores que se puedan presentar, evitando así el fracaso del mismo.<br><br>El levantamiento de requerimientos hace referencia a la identificación y documentación del sistema, partiendo de usuarios, clientes o interesados; también se le llama recopilación de requerimientos.<br><br>A continuación, se muestran algunas técnicas para obtener requerimientos en los proyectos de <i>software</i>:
     
     .row.mb-5
       .col-lg-7
@@ -57,7 +57,7 @@
                     p Se utiliza cuando los expertos en el desarrollo no están disponibles para ser interrogados o ya no forman parte del proceso o la empresa.
                   li 
                     i.fas.fa-angle-right 
-                    p Evitar riesgos al no tener documentación.En el momento de necesitarla, se tendrá que hacer en el momento menos oportuno y sin recordar nada, perdiendo información valiosa y tiempo, buscando las soluciones.
+                    p Evitar riesgos al no tener documentación. En el momento de necesitarla, se tendrá que hacer en el momento menos oportuno y sin recordar nada, perdiendo información valiosa y tiempo, buscando las soluciones.
               
               p.text-small(numero="2" titulo="Observación").m-3
                 ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color
