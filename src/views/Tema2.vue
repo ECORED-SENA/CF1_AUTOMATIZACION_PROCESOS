@@ -183,8 +183,8 @@
       
     
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle5.mb-4(data-aos="zoom-in")      
-        h3.text Técnicas de modelado de procesos
+      .col-lg-4.cajontitle5.mb-4(data-aos="zoom-in")      
+        h3.text.mb-0 Técnicas de modelado de procesos
     
     p.mb-5(data-aos="zoom-in") Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un <i>software</i> fiable para realizar el modelado de los procesos.
     
@@ -208,8 +208,8 @@
             p Enfoque de abajo hacia arriba analizando el proceso del nivel de flujo de trabajo, es más lento, pero se encuentran mayores detalles.
   
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle6.mb-4(data-aos="zoom-in")      
-        h3.text Diagrama de flujo
+      .col-lg-3.cajontitle6.mb-4(data-aos="zoom-in")      
+        h3.text.mb-0 Diagrama de flujo
     
     .row.align-items-center.mb-3
       .col-lg-7
@@ -220,7 +220,7 @@
     
     .row.mb-4(data-aos="zoom-in")
       .cajon-b.col-10.cajontitle7
-        h3.text Las figuras utilizadas en un diagrama de flujo son: 
+        h3.text.mb-0 Las figuras utilizadas en un diagrama de flujo son: 
     
     .row.col-lg-9.caj.mb-5
       PasosA.color-acento-contenido(tipo="n")(data-aos="zoom-in").pasos-a__linea__esquina__linea
@@ -343,8 +343,8 @@
               img(src='@/assets/template/Diagrama5.svg')
     
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle6.mb-4(data-aos="zoom-in")      
-        h3.text  El modelo BPMN
+      .col-lg-3.cajontitle6.mb-4(data-aos="zoom-in")      
+        h3.text.mb-0  El modelo BPMN
   
     .row.align-items-center.mb-4
       .col-lg-7

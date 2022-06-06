@@ -27,8 +27,8 @@
         p.m-2 Ahora bien, los requerimientos son adaptados a todo tipo de proyectos, así, se trata de garantizar el óptimo funcionamiento de los procesos, sirviendo de referencia para el aseguramiento y control de los cambios que se pueden presentar en el proyecto (trazabilidad).
       
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle2.mb-4(data-aos="zoom-in")      
-        h3.text Control de cambios
+      .col-lg-3.cajontitle2.mb-4(data-aos="zoom-in")      
+        h3.text.mb-0 Control de cambios
     
     .row.mb-4
       .col-lg-7
@@ -190,8 +190,8 @@
       p(data-aos="zoom-in") Las restricciones siempre serán necesarias para lograr manipular o editar el manejo de la aplicación de manera controlada, efectiva y funcional, para que se lleven a cabo los procesos de manera eficaz en la operación de las tareas.
 
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle21.mb-4(data-aos="zoom-in")      
-        h3.text Restricciones
+      .col-lg-3.cajontitle2.mb-4(data-aos="zoom-in")      
+        h3.text.mb-0 Restricciones
     
     .row.mb-2
       p(data-aos="zoom-in") Hacen énfasis, por ejemplo, en los permisos de accesos a usuarios en el sistema.
@@ -250,8 +250,8 @@
         img.imgpos3(src='@/assets/curso/imgtem05.jpg')(data-aos="zoom-in-left")
 
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle3.mb-4(data-aos="zoom-in")      
-        h3.text Estructura de los requerimientos 
+      .col-lg-4.cajontitle3.mb-4(data-aos="zoom-in")      
+        h3.text.mb-0 Estructura de los requerimientos 
   
     p.mb-5(data-aos="zoom-in") Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los <i>stakeholders</i> como se muestra en la siguiente imagen:
     
@@ -262,8 +262,8 @@
     p(data-aos="zoom-in") Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
     
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle4.mb-4(data-aos="zoom-in")
-        h3.text ¿Qué es la trazabilidad?
+      .col-lg-3.cajontitle4.mb-4(data-aos="zoom-in")
+        h3.text.mb-0 ¿Qué es la trazabilidad?
     
     .row.mb-5
       .col-lg-7(data-aos="zoom-in-right")
@@ -274,8 +274,8 @@
         img.imgpos5(src='@/assets/curso/imgtem07.jpg')(data-aos="zoom-in-left")
     
     .row.justify-content-start.align-items-center
-      .col-8.cajontitle4.mb-4(data-aos="zoom-in")
-        h3.text Tipos de requerimientos
+      .col-lg-3.cajontitle4.mb-4(data-aos="zoom-in")
+        h3.text.mb-0 Tipos de requerimientos
     
     .row.mb-4
       p(data-aos="zoom-in") Los requerimientos se clasifican en:
