@@ -182,8 +182,9 @@
         p.m-4.text-center se usan guías como la información, normas, conocimientos, recibos e informes que nos ayuden a comprender el cuándo, cómo y porqué se produce un proceso. 
       
     
-    .cajon.cajontitle5.col-3.mb-4(data-aos="zoom-in")
-      h3.text Técnicas de modelado de procesos
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle5.mb-4(data-aos="zoom-in")      
+        h3.text Técnicas de modelado de procesos
     
     p.mb-5(data-aos="zoom-in") Es ideal visualizar y crear un diagrama o flujo para notar la descripción de cada proceso, para lograr ver claramente el proceso, permitiendo identificar lo que se debe cambiar, mejorar y optimizar, lo cual podrían requerir algunas técnicas. Siempre es importante contar con un <i>software</i> fiable para realizar el modelado de los procesos.
     
@@ -206,8 +207,9 @@
             i.fas.fa-angle-right 
             p Enfoque de abajo hacia arriba analizando el proceso del nivel de flujo de trabajo, es más lento, pero se encuentran mayores detalles.
   
-    .cajon.cajontitle6.col-3.mb-4(data-aos="zoom-in")
-      h3.text Diagrama de flujo
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle6.mb-4(data-aos="zoom-in")      
+        h3.text Diagrama de flujo
     
     .row.align-items-center.mb-3
       .col-lg-7
@@ -340,8 +342,9 @@
             figure
               img(src='@/assets/template/Diagrama5.svg')
     
-    .cajon.cajontitle6.col-3.mb-5(data-aos="zoom-in")
-      h3.text El modelo BPMN
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle6.mb-4(data-aos="zoom-in")      
+        h3.text  El modelo BPMN
   
     .row.align-items-center.mb-4
       .col-lg-7

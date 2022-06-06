@@ -26,8 +26,8 @@
           p.mb-0 El propósito principal de los requerimientos es asegurar la satisfacción de las expectativas de los clientes y sus interesados (<i> stakeholders </i>), internos y externos, relacionando de manera eficiente, los vínculos que esperan los clientes y usuarios, y lo que el grupo del proyecto tiende a desarrollar.
         p.m-2 Ahora bien, los requerimientos son adaptados a todo tipo de proyectos, así, se trata de garantizar el óptimo funcionamiento de los procesos, sirviendo de referencia para el aseguramiento y control de los cambios que se pueden presentar en el proyecto (trazabilidad).
       
-    .row.mb-4
-      .cajon.cajontitle2.col-2(data-aos="zoom-in-right")
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle2.mb-4(data-aos="zoom-in")      
         h3.text Control de cambios
     
     .row.mb-4
@@ -188,9 +188,10 @@
     
     .row.mb-2
       p(data-aos="zoom-in") Las restricciones siempre serán necesarias para lograr manipular o editar el manejo de la aplicación de manera controlada, efectiva y funcional, para que se lleven a cabo los procesos de manera eficaz en la operación de las tareas.
-    .row.mb-5
-      .cajon.cajontitle21.col-2(data-aos="zoom-in")
-        h3.text(data-aos="zoom-in") Restricciones
+
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle21.mb-4(data-aos="zoom-in")      
+        h3.text Restricciones
     
     .row.mb-2
       p(data-aos="zoom-in") Hacen énfasis, por ejemplo, en los permisos de accesos a usuarios en el sistema.
@@ -248,21 +249,21 @@
       .col-lg-5
         img.imgpos3(src='@/assets/curso/imgtem05.jpg')(data-aos="zoom-in-left")
 
-    .row.mb-4
-      .cajon.cajontitle3.col-3(data-aos="zoom-in")
-        h3.text(data-aos="zoom-in") Estructura de los requerimientos
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle3.mb-4(data-aos="zoom-in")      
+        h3.text Estructura de los requerimientos 
   
     p.mb-5(data-aos="zoom-in") Los requisitos se pueden dividir, según su origen y características, se pueden representar mediante una gráfica, situando las necesidades de los <i>stakeholders</i> como se muestra en la siguiente imagen:
     
     .row.mb-5
       img.col-10.imgpos4(src='@/assets/curso/requerimientos.svg')(data-aos="zoom-in")
     
-    .row.mb-5
-      p(data-aos="zoom-in") Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
-    
 
-    .cajon.cajontitle4.col-3.mb-4(data-aos="zoom-in")
-      h3.text ¿Qué es la trazabilidad?
+    p(data-aos="zoom-in") Para estos tipos de necesidades dependerá mucho del analista de negocio decidir cuál será el nivel de detalle de cada nivel, aunque es adecuado, en algunos casos, detallar con más precisión algunos requerimientos en el nivel de las necesidades.
+    
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle4.mb-4(data-aos="zoom-in")
+        h3.text ¿Qué es la trazabilidad?
     
     .row.mb-5
       .col-lg-7(data-aos="zoom-in-right")
@@ -272,8 +273,8 @@
       .col-lg-5
         img.imgpos5(src='@/assets/curso/imgtem07.jpg')(data-aos="zoom-in-left")
     
-    .row.mb-4
-      .cajon.cajontitle4.col-3(data-aos="zoom-in")
+    .row.justify-content-start.align-items-center
+      .col-8.cajontitle4.mb-4(data-aos="zoom-in")
         h3.text Tipos de requerimientos
     
     .row.mb-4
