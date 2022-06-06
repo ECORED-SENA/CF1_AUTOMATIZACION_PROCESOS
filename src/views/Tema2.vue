@@ -361,39 +361,37 @@
         .imagen.m-2        
           img(src='@/assets/curso/imgtem207.jpg', style="width: 420px")
 
-    p.col-12.text3.mb-3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
-    
-    .row.mb-5
-      .col-12
-        .row
-          .col-4.p-0.m-2.tarjeta-apilado.azul
-            img(src='@/assets/curso/tar7.png', alt='', class='img-fluid')
-            h3.text-center.m-3 Eventos
-            p.m-4.text-center Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
+    p.mb-3(data-aos="zoom-in-right") Se representan gráficamente por un círculo y van describiendo algo que sucede, a diferencia de las actividades que son algo que se realiza o se hace. A continuación, se muestra su representación gráfica y su definición:
 
-          .col-4.p-0.m-2.tarjeta-apilado.azul
-            img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
-            h3.text-center.m-3 Actividades
-            ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color(data-aos="zoom-in-left").m-4
-              li 
-                i.fas.fa-angle-right  
-                span Representan el trabajo realizado dentro de una organización.
-              li 
-                i.fas.fa-angle-right 
-                span Consumen recursos.
-              li 
-                i.fas.fa-angle-right    
-                span Pueden ser simples o compuestas.
-  
-          .col-4.p-0.m-2.tarjeta-apilado.azul
-            img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
-            h3.text-center.m-3 Compuertas
-            p.m-4.text-center Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-4.p-0.m-2.tarjeta-apilado.azul
+        img(src='@/assets/curso/tar7.png', alt='', class='img-fluid')
+        h3.text-center.m-3 Eventos
+        p.m-4.text-center Representan algo que ocurre o que puede ocurrir durante el curso de un proceso.
+
+      .col-lg-4.p-0.m-2.tarjeta-apilado.azul
+        img(src='@/assets/curso/tar8.png', alt='', class='img-fluid')
+        h3.text-center.m-3 Actividades
+        ul.lista-ul(style="list-style-type: square").lista-ul.lista-ul--color.m-4
+          li 
+            i.fas.fa-angle-right  
+            span Representan el trabajo realizado dentro de una organización.
+          li 
+            i.fas.fa-angle-right 
+            span Consumen recursos.
+          li 
+            i.fas.fa-angle-right    
+            span Pueden ser simples o compuestas.
+            
+      .col-4.p-0.m-2.tarjeta-apilado.azul
+        img(src='@/assets/curso/tar9.png', alt='', class='img-fluid')
+        h3.text-center.m-3 Compuertas
+        p.m-4.text-center Son los elementos para controlar los puntos de divergencia y convergencia del flujo. 
     
-    p.col-12.text4.mb-5(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:
+    p.text4.mb-5(data-aos="zoom-in") El siguiente es un ejemplo de modelo BPMN:  
     
+    img.img-a.img-t(src='@/assets/curso/modelo.svg')(data-aos="zoom-in")    
     .row.mb-5
-      img(src='@/assets/curso/modelo.svg')(data-aos="zoom-in")
       .col-lg-10.m-t1-top.p-2.caj
         .tarjeta.coloramarillo.p-4(data-aos="zoom-in")
           .row.justify-content-around.align-items-center
@@ -402,7 +400,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small Para mayor comprensión de los diagramas BPMN y aprender a hacer uno se invita al aprendiz a ver el Video ayuda para hacer un diagrama BPMN ubicado en la sección de material complementario.
+                  p.mb-0 Para mayor comprensión de los diagramas BPMN y aprender a hacer uno se invita al aprendiz a ver el Video ayuda para hacer un diagrama BPMN ubicado en la sección de material complementario.
 
 
 </template>
